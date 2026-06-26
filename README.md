@@ -23,4 +23,4 @@ A comprehensive walkthrough of the TryHackMe Pre-Security path — building foun
 
 ---
 
-*Profile: [utkarshsolanki776](https://tryhackme.com/p/utkarshsolanki776)*
+*Profile: [utkarsshh](https://tryhackme.com/p/utkarsshh)*

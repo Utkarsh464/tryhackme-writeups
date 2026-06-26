@@ -5,7 +5,7 @@
 - **Estimated Completion Time:** 10–15 hours
 - **Certificate:** SEC0 Professional Certification
 - **Status:** ✅ 100% Complete
-- **Profile:** [utkarshsolanki776](https://tryhackme.com/p/utkarshsolanki776)
+- **Profile:** [utkarsshh](https://tryhackme.com/p/utkarsshh)
 
 ---
 
@@ -763,6 +763,6 @@ With Pre-Security completed, the logical progression paths are:
 ---
 
 *Path completed: June 2026*  
-*TryHackMe Profile: [utkarshsolanki776](https://tryhackme.com/p/utkarshsolanki776)*  
+*TryHackMe Profile: [utkarsshh](https://tryhackme.com/p/utkarsshh)*  
 *Certificate: [pre_security.pdf](./pre_security.pdf)*  
 *SEC0 Professional Certification: Unlocked*
