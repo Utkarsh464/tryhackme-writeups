@@ -6,26 +6,21 @@
 
 ## Pre-Security Path
 
-**Certificate:** [`pre_security.pdf`](./pre_security.pdf)
+**Certificate:** [`pre_security.pdf`](./pre_security.pdf)  
+**SEC0 Professional Certification:** Unlocked
 
-A complete walkthrough of the Pre-Security path — building foundational knowledge from the ground up.
+A comprehensive walkthrough of the TryHackMe Pre-Security path — building foundational knowledge from computer hardware and networking through to web technologies, operating systems, programming basics, and real-world attacks and defenses.
 
 ### Modules Covered
 
-| Module | Room | Key Topics |
-|--------|------|------------|
-| **Cyber Security Introduction** | Careers in Cyber | Security roles, certifications, career paths |
-| **Network Fundamentals** | What is Networking? | OSI model, TCP/IP, IP addressing, ports, protocols |
-| **How The Web Works** | How Websites Work | HTML, JS, browser DevTools, hidden elements |
-| | DNS in Detail | DNS hierarchy, record types, `nslookup`, `dig` |
-| | HTTP in Detail | Methods, status codes, headers, cookies, `curl` |
-| | Putting it all together | Full request flow: DNS → HTTP → Server → Render |
-| **Linux Fundamentals** | Linux Fundamentals Part 1 | CLI, file system, permissions, `find`, `grep` |
-| **Windows Fundamentals** | Windows Fundamentals 1 | NTFS, UAC, Task Manager, Control Panel |
-| **Web Security Fundamentals** | Search Skills | Google dorks, Shodan, CVE searches |
-| | OWASP Top 10 2025: IAAA Failures | Access control, auth flaws, logging failures |
-| **Operating System Basics** | Operating Systems: Introduction | Kernel, processes, memory mgmt, file systems |
-| | Inside a Computer System | CPU, RAM, storage, motherboard, GPU |
-| | Computer Types | Desktop, laptop, embedded, server, mainframe |
-| | Offensive Security Intro | Command injection, ethical hacking methodology |
-| | Defensive Security Intro | SOC, SIEM, IDS/IPS, incident response |
+1. [Introduction to Cyber Security](./pre-security-path.md#1-introduction-to-cyber-security) — Offensive vs defensive security, career pathways
+2. [Network Fundamentals](./pre-security-path.md#2-network-fundamentals) — OSI/TCP-IP models, protocols, ports, subnetting
+3. [How The Web Works](./pre-security-path.md#3-how-the-web-works) — DNS, HTTP, HTML, full request lifecycle
+4. [Computer Fundamentals](./pre-security-path.md#4-computer-fundamentals) — CPU, RAM, storage, cloud computing
+5. [Operating Systems Basics](./pre-security-path.md#5-operating-systems-basics) — Windows & Linux, kernels, processes, file systems
+6. [Software Basics](./pre-security-path.md#6-software-basics) — Binary, Python, JavaScript, SQL
+7. [Attacks and Defenses](./pre-security-path.md#7-attacks-and-defenses) — Cyber Kill Chain, MITRE ATT&CK, incident response
+
+---
+
+*Profile: [utkarshsolanki776](https://tryhackme.com/p/utkarshsolanki776)*
