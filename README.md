@@ -1,8 +1,9 @@
 # TryHackMe Write-ups
 
-| Path | Status |
+| Path / Module | Status |
 |------|--------|
 | Pre-Security | ✅ Completed |
+| Python Scripting Basics | 🔄 In Progress (2/4) |
 
 ## Pre-Security Path
 
@@ -20,6 +21,22 @@ A comprehensive walkthrough of the TryHackMe Pre-Security path — building foun
 5. [Operating Systems Basics](./pre-security-path.md#5-operating-systems-basics) — Windows & Linux, kernels, processes, file systems
 6. [Software Basics](./pre-security-path.md#6-software-basics) — Binary, Python, JavaScript, SQL
 7. [Attacks and Defenses](./pre-security-path.md#7-attacks-and-defenses) — Cyber Kill Chain, MITRE ATT&CK, incident response
+
+---
+
+## Python Scripting Basics
+
+**Write-up:** [`python-scripting-basics.md`](./python-scripting-basics.md)  
+**Status:** 2/4 rooms completed
+
+A practical guide to Python scripting for penetration testing — from syntax fundamentals to building real-world tools for web recon, network scanning, hash cracking, and SSH brute-forcing.
+
+### Rooms Covered
+
+1. [Python: Simple Demo](./python-scripting-basics.md#1-python-simple-demo) — First steps, printing, input, arithmetic
+2. [Python: Core Concepts](./python-scripting-basics.md#2-python-core-concepts) — Variables, control flow, functions, data structures
+3. [Python: Building Scripts](./python-scripting-basics.md#3-python-building-scripts) — Argument parsing, modules, logging, file I/O
+4. [Python: Pentesting Scripts](./python-scripting-basics.md#4-python-pentesting-scripts) — Web recon, port scanning, hash cracking, SSH brute-force
 
 ---
 
