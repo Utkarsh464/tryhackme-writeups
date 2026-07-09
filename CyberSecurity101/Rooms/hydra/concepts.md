@@ -1,0 +1,19 @@
+# Hydra - Concepts
+
+## Brute-Force vs Dictionary Attacks
+A brute-force attack tries every possible combination of characters within a defined character set and length range. While comprehensive, brute-force attacks are extremely time-consuming for any reasonable password length (e.g., an 8-character lowercase password has 26^8 = 208 billion possibilities). A dictionary attack uses a wordlist of likely passwords, which is much faster but only succeeds if the password is in the wordlist. In practice, penetration testers use dictionary attacks first, then extend with rules (capitalization, substitutions, appending numbers) before resorting to pure brute-force. Hydra supports both approaches: dictionary attacks via -P and brute-force via -x.
+
+## HTTP Form Parameter Analysis
+To brute-force an HTTP login form, Hydra needs to understand the form's structure. Using the http-post-form module, three components are required: the URL path, the POST body with ^USER^ and ^PASS^ markers, and a failure string. The failure string is critical because Hydra determines success by checking if the response contains or does not contain this string. Common failure strings include "Invalid username or password", "Login failed", or an HTTP status code like 302 (redirect to a login error page). Analyzing the form parameters using browser developer tools or intercepting proxies is a prerequisite skill.
+
+## Service Protocol Authentication
+Each network service implements authentication differently. SSH uses public-key cryptography for server authentication and password or key-based user authentication. FTP supports anonymous access as well as user/password authentication. HTTP Basic authentication sends credentials in Base64-encoded headers, while HTTP forms use POST parameters. Hydra uses protocol-specific modules that understand each service's authentication handshake. The module handles the protocol details, while the user specifies the target, credentials, and attack parameters. Understanding the underlying protocol helps in troubleshooting failed attacks.
+
+## Parallelization and Performance
+Hydra uses parallel connections to maximize attack speed. The -t flag controls how many parallel tasks run simultaneously. For services that handle concurrent connections well (like HTTP), high thread counts significantly increase speed. For services with built-in rate limiting (like SSH), too many threads can cause connection failures or triggers defensive mechanisms. Network latency also affects performance: high-latency connections benefit from more parallel tasks to keep the pipeline full. Finding the right balance between speed and reliability is a practical skill developed through experience.
+
+## Account Lockout and Defensive Mechanisms
+Account lockout policies lock an account after a threshold of failed attempts, typically 3-10 attempts, for a defined period. Lockout defeats online brute-force attacks because the attacker cannot try enough passwords. However, lockout can be exploited for denial-of-service by intentionally triggering lockouts on legitimate accounts. Rate limiting restricts the number of authentication attempts from a single IP address over time, which slows brute-force attacks but does not completely prevent them. Modern defenses also include CAPTCHAs, multi-factor authentication, geo-IP restrictions, and behavior-based anomaly detection.
+
+## Ethical and Legal Considerations
+Brute-force attacks against systems without explicit written authorization are illegal in most jurisdictions, constituting unauthorized access under computer misuse laws. Penetration testers must always obtain written authorization that specifies the scope, methodology, and duration of testing. Hydra should only be used on systems you own or have explicit permission to test. The room emphasizes responsible disclosure and ethical hacking principles throughout.

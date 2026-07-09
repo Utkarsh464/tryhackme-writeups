@@ -1,0 +1,16 @@
+# Gobuster: The Basics - Tools
+
+## Gobuster
+Gobuster is a multi-purpose brute-force tool written in Go that excels at directory/file enumeration, DNS subdomain enumeration, and virtual host discovery. Its Go runtime provides excellent concurrency, making it significantly faster than Python- or Ruby-based alternatives. Gobuster supports three operational modes: dir (directory/file), dns (subdomain), and vhost (virtual host). Each mode has specialized flags and behaviors. Gobuster is pre-installed on Kali Linux and Parrot OS, and is available for all major platforms. Key features include: configurable thread counts, extension appending for file discovery, custom HTTP headers and cookies, TLS bypass options, quiet mode for script integration, and result output to files. Gobuster's simplicity and speed make it the default choice for web content discovery in most penetration testing scenarios.
+
+## SecLists
+SecLists is a comprehensive collection of wordlists created and maintained by Daniel Miessler and the security community. Available on GitHub, SecLists contains wordlists organized by category: Discovery/Web-Content (directories, files, parameters), Discovery/DNS (subdomains), Passwords (common passwords, breached credential lists), Usernames (common usernames), and many more specialized categories. The project includes wordlists from real-world data breaches, common application paths, security scanner datasets, and curated collections. SecLists is the de facto standard wordlist collection for penetration testing and is pre-installed on Kali Linux at /usr/share/seclists/.
+
+## ffuf (Alternative)
+ffuf (Fuzz Faster U Fool) is another web fuzzing tool written in Go that can perform directory enumeration, parameter fuzzing, and more. ffuf is faster than Gobuster for web content discovery because it is specialized for HTTP fuzzing, whereas Gobuster is a more general-purpose tool. ffuf supports advanced features like multi-wordlist fuzzing, request replay, and output filtering. While Gobuster is simpler to use for basic tasks, ffuf offers more flexibility for complex fuzzing scenarios. Both tools have their place in a penetration tester's toolkit.
+
+## dirb and dirbuster (Legacy Alternatives)
+dirb and dirbuster are older directory brute-forcing tools that are still included in Kali Linux. dirb is a simple command-line tool that lacks Gobuster's speed and features. dirbuster has a graphical interface that can be more intuitive for beginners but is significantly slower than Gobuster for large wordlists. Both tools are maintained primarily for compatibility and legacy support. New users are recommended to learn Gobuster or ffuf for modern web content discovery.
+
+## dig and nslookup
+dig (Domain Information Groper) and nslookup are standard DNS lookup utilities used for querying DNS servers. While Gobuster automates subdomain enumeration, dig is used for manual verification and deeper investigation of discovered subdomains. dig can retrieve different record types (A, AAAA, MX, TXT, CNAME, NS) for understanding a subdomain's purpose and configuration. nslookup is an older tool with similar functionality but less flexibility. These tools are essential for verifying Gobuster DNS findings and for understanding DNS infrastructure during reconnaissance.

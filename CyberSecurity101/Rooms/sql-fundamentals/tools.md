@@ -1,0 +1,16 @@
+# SQL Fundamentals - Tools
+
+## SQLite Command-Line Shell
+SQLite is a lightweight, file-based relational database engine that is ideal for learning SQL. Unlike client-server databases like MySQL or PostgreSQL, SQLite requires no configuration, no server process, and no authentication. The sqlite3 command-line tool provides an interactive shell for creating databases, running queries, and managing data. It supports most standard SQL syntax with a few limitations. SQLite is the most accessible way to practice SQL because it is pre-installed on most Linux and macOS systems and requires no administrative privileges. Commands like `.tables`, `.schema`, `.mode column`, and `.headers on` make it easy to explore database structure and format output.
+
+## MySQL Command-Line Client
+MySQL is one of the most popular open-source relational database management systems, widely used in web applications. The mysql command-line client connects to a MySQL server and provides an interactive SQL shell. MySQL supports advanced features including stored procedures, triggers, views, and full-text search. Its SQL dialect includes some extensions beyond standard SQL, such as LIMIT without OFFSET being valid, and the INFORMATION_SCHEMA database for metadata queries. MySQL is commonly encountered during web application penetration testing, making familiarity with its command-line client and SQL dialect valuable.
+
+## DB Fiddle and Online SQL Playgrounds
+Online SQL playgrounds like DB Fiddle (dbfiddle.uk), SQL Fiddle (sqlfiddle.com), and SQLite Online (sqliteonline.com) provide browser-based SQL environments that require no installation. These tools allow you to create tables, insert sample data, and run queries in various database engines. DB Fiddle supports MySQL, PostgreSQL, SQLite, SQL Server, and others, making it useful for testing dialect-specific syntax. These platforms are ideal for practicing SQL when local database tools are unavailable and for sharing query examples with team members during collaboration.
+
+## DBeaver and GUI Database Tools
+DBeaver is a free, open-source universal database tool that provides a graphical interface for interacting with multiple database types. It offers schema browsing, query execution, result visualization, and data export. GUI tools simplify database exploration during penetration testing by providing an intuitive view of table structures, relationships, and data. Other popular GUI tools include HeidiSQL (Windows), TablePlus (macOS/Windows), and MySQL Workbench. While not essential for this room, GUI tools can accelerate database analysis during real-world assessments.
+
+## SQLMap
+SQLMap is an open-source penetration testing tool that automates the detection and exploitation of SQL injection vulnerabilities. While not covered in detail in this room (it appears in a later module), understanding SQL fundamentals is a prerequisite for using SQLMap effectively. SQLMap can fingerprint databases, extract data, enumerate users and privileges, and in some cases, achieve operating system-level access through database features. Knowledge of SQL syntax and database concepts is essential for interpreting SQLMap output and for manual verification of its findings.
