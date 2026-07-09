@@ -1,0 +1,26 @@
+{
+  "path": "Cyber Security 101",
+  "version": "2026",
+  "totalModules": 14,
+  "totalRooms": 56,
+  "estimatedHours": 45,
+  "currentModule": 1,
+  "currentRoom": 1,
+  "currentTask": 1,
+  "modules": {
+    "1": { "name": "Start Your Cybersecurity Journey", "rooms": 3, "completed": false },
+    "2": { "name": "Linux Fundamentals", "rooms": 3, "completed": false },
+    "3": { "name": "Windows and AD Fundamentals", "rooms": 4, "completed": false },
+    "4": { "name": "Command Line", "rooms": 3, "completed": false },
+    "5": { "name": "Networking", "rooms": 7, "completed": false },
+    "6": { "name": "Cryptography", "rooms": 4, "completed": false },
+    "7": { "name": "Exploitation Basics", "rooms": 5, "completed": false },
+    "8": { "name": "Web Hacking", "rooms": 5, "completed": false },
+    "9": { "name": "Offensive Security Tooling", "rooms": 4, "completed": false },
+    "10": { "name": "Defensive Security", "rooms": 5, "completed": false },
+    "11": { "name": "Security Solutions", "rooms": 4, "completed": false },
+    "12": { "name": "Defensive Security Tooling", "rooms": 4, "completed": false },
+    "13": { "name": "Build Your Cyber Security Career", "rooms": 3, "completed": false },
+    "14": { "name": "Final Assessment / OWASP Top 10", "rooms": 1, "completed": false }
+  }
+}
