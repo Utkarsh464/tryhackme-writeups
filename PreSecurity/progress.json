@@ -1,0 +1,19 @@
+{
+  "path": "Pre-Security",
+  "version": "2026",
+  "totalModules": 7,
+  "totalRooms": 31,
+  "estimatedHours": 15,
+  "currentModule": 7,
+  "currentRoom": 31,
+  "currentTask": 1,
+  "modules": {
+    "1": { "name": "Introduction to Cyber Security", "rooms": 3, "completed": true },
+    "2": { "name": "Network Fundamentals", "rooms": 5, "completed": true },
+    "3": { "name": "How The Web Works", "rooms": 4, "completed": true },
+    "4": { "name": "Computer Fundamentals", "rooms": 5, "completed": true },
+    "5": { "name": "Operating Systems Basics", "rooms": 5, "completed": true },
+    "6": { "name": "Software Basics", "rooms": 5, "completed": true },
+    "7": { "name": "Attacks and Defenses", "rooms": 4, "completed": true }
+  }
+}
