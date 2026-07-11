@@ -33,4 +33,16 @@ A comprehensive structured documentation of the TryHackMe Cyber Security 101 pat
 
 ---
 
+---
+
+## Other Standalone Rooms
+
+| Room | Category | Status |
+|------|----------|--------|
+| [Cache Me Outside](./Other-Rooms/Cache-Me-Outside/writeup.md) | OSINT | ✅ Completed |
+
+OSINT investigation tracking a retired hacker's digital footprint across Komoot, GitHub, Threads, and email — covering public profile correlation, Git commit metadata leaks, active OSINT via auto-replies, image geolocation, and transit route reconstruction.
+
+---
+
 *Profile: [utkarsshh](https://tryhackme.com/p/utkarsshh)*
