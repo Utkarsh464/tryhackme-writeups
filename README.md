@@ -3,7 +3,7 @@
 | Path / Module | Status |
 |------|--------|
 | Pre-Security | ✅ Completed |
-| Cyber Security 101 | 🔄 In Progress (9/14 modules) |
+| Cyber Security 101 | 🔄 In Progress (10/14 modules) |
 
 ## Pre-Security Path
 
@@ -29,7 +29,7 @@ A comprehensive structured documentation of the TryHackMe Pre-Security path — 
 
 **Structured documentation:** 👉 **[CyberSecurity101/](./CyberSecurity101/README.md)**
 
-A comprehensive structured documentation of the TryHackMe Cyber Security 101 path — covering operating systems, networking, web security, exploitation, forensics, and defensive techniques across 14 modules (9 completed, 5 pending).
+A comprehensive structured documentation of the TryHackMe Cyber Security 101 path — covering operating systems, networking, web security, exploitation, forensics, and defensive techniques across 14 modules (10 completed, 4 pending).
 
 ---
 

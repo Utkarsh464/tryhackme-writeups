@@ -4,7 +4,7 @@
 > Covers foundational to intermediate cybersecurity concepts through hands-on rooms, real-world scenarios, and practical tool mastery.
 
 [![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)](#)
-[![Modules Completed](https://img.shields.io/badge/Modules%20Completed-9%2F14-brightgreen)](#)
+[![Modules Completed](https://img.shields.io/badge/Modules%20Completed-10%2F14-brightgreen)](#)
 [![Difficulty](https://img.shields.io/badge/Difficulty-Foundation%20to%20Intermediate-blue)](#)
 [![Platform](https://img.shields.io/badge/Platform-TryHackMe-red)](#)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)](#)
@@ -30,8 +30,8 @@ The **Cyber Security 101** path on TryHackMe is an entry-to-intermediate level c
 
 | Status | Detail |
 |--------|--------|
-| **Modules 1–9** | `COMPLETED` — Core foundations: Linux, Windows, Web, Networks, Python, Privilege Escalation, Metasploit, Burp Suite |
-| **Modules 10–14** | `PENDING` — Advanced topics: Active Directory, Cryptography, Malware Analysis, Wireshark, Final Assessment |
+| **Modules 1–11** | `COMPLETED` — Core foundations: Linux, Windows, Web, Networks, Cryptography, Exploitation, Web Hacking, Tooling, Defensive Security, Security Solutions |
+| **Modules 12–14** | `PENDING` — Defensive Security Tooling, Cyber Career, OWASP Top 10 (2025) |
 
 Each module contains a series of interactive rooms (virtual machines, challenges, guided exercises) that reinforce the topic through hands-on application. This handbook documents every room with step-by-step solutions, explanations, key takeaways, and optional deep-dives.
 
@@ -41,44 +41,44 @@ Each module contains a series of interactive rooms (virtual machines, challenges
 
 | Module | Topic | Status |
 |--------|-------|--------|
-| 01 | Introduction to Cyber Security | ✅ Completed |
+| 01 | Start Your Cyber Security Journey | ✅ Completed |
 | 02 | Linux Fundamentals | ✅ Completed |
-| 03 | Web Hacking Fundamentals | ✅ Completed |
-| 04 | Network Security | ✅ Completed |
-| 05 | Windows Fundamentals | ✅ Completed |
-| 06 | Python Basics | ✅ Completed |
-| 07 | Privilege Escalation | ✅ Completed |
-| 08 | Metasploit Framework | ✅ Completed |
-| 09 | Burp Suite | ✅ Completed |
-| 10 | Active Directory | ⏳ Pending |
-| 11 | Cryptography | ⏳ Pending |
-| 12 | Malware Analysis | ⏳ Pending |
-| 13 | Wireshark & Traffic Analysis | ⏳ Pending |
-| 14 | Final Assessment / Capstone | ⏳ Pending |
+| 03 | Windows and AD Fundamentals | ✅ Completed |
+| 04 | Command Line | ✅ Completed |
+| 05 | Networking | ✅ Completed |
+| 06 | Cryptography | ✅ Completed |
+| 07 | Exploitation Basics | ✅ Completed |
+| 08 | Web Hacking | ✅ Completed |
+| 09 | Offensive Security Tooling | ✅ Completed |
+| 10 | Defensive Security | ✅ Completed |
+| 11 | Security Solutions | ✅ Completed |
+| 12 | Defensive Security Tooling | ⏳ Pending |
+| 13 | Build Your Cyber Security Career | ⏳ Pending |
+| 14 | OWASP Top 10 (2025) | ⏳ Pending |
 
 ---
 
 ## Skills Covered
 
-### Completed (Modules 1–9)
+### Completed (Modules 1–11)
 
 - **Cyber Security Foundations** — CIA triad, risk management, security frameworks, threat actors
 - **Linux System Administration** — Command-line navigation, file permissions, process management, bash scripting, service configuration
-- **Web Application Security** — OWASP Top 10, SQL injection, XSS, CSRF, file inclusion, SSRF, authentication bypasses
-- **Network Security & Analysis** — TCP/IP stack, OSI model, subnetting, DNS, HTTP/S, firewalls, IDS/IPS, port scanning
-- **Windows Internals** — Active Directory basics, user/group management, Group Policy, registry, event viewer, PowerShell
-- **Python for Security** — Scripting, automation, socket programming, HTTP requests, parsing, basic exploitation scripts
-- **Privilege Escalation** — Linux kernel exploits, SUID misconfigurations, cron jobs, PATH hijacking, Windows token manipulation, UAC bypass, service exploits
-- **Metasploit Framework** — Module structure, staging vs stageless payloads, meterpreter, post-exploitation, pivoting, database integration
-- **Burp Suite** — Proxy interception, repeater, intruder, scanner, sequencer, decoder, comparer, extensions (Turbo Intruder, Autorize)
+- **Windows & Active Directory** — User/group management, AD basics, Group Policy, registry, event viewer, PowerShell
+- **Command Line** — Windows CMD, PowerShell, Linux shells, shell scripting
+- **Networking** — TCP/IP, OSI model, protocols, Wireshark, tcpdump, Nmap
+- **Cryptography** — Symmetric & asymmetric encryption, hashing, PKI, John the Ripper
+- **Exploitation Basics** — Metasploit, Meterpreter, vulnerability exploitation
+- **Web Hacking** — Web apps, JavaScript, SQL, Burp Suite basics
+- **Offensive Security Tooling** — Hydra, Gobuster, shells, SQLMap
+- **Defensive Security** — SOC fundamentals, digital forensics, incident response, log analysis
+- **Security Solutions** — SIEM, firewalls, IDS/IPS, vulnerability scanners
 
-### Pending (Modules 10–14)
+### Pending (Modules 12–14)
 
-- **Active Directory Attacking & Defending** — Kerberos, NTLM, delegation, AS-REP roasting, Kerberoasting, ACL abuse, DCSync
-- **Cryptography** — Symmetric vs asymmetric encryption, hashing, PKI, TLS/SSL, digital signatures, cryptanalysis basics
-- **Malware Analysis** — Static & dynamic analysis, sandboxing, reverse engineering basics, YARA rules, memory forensics
-- **Network Traffic Analysis** — Wireshark filters, protocol dissection, PCAP analysis, traffic forensics, exfiltration detection
-- **Capstone Assessment** — Multi-technique scenario combining all previous modules
+- **Defensive Security Tooling** — CyberChef, CAPA, REMnux, FlareVM
+- **Build Your Cyber Security Career** — Security principles, career paths, team impact
+- **OWASP Top 10 (2025)** — IAAA failures, application design flaws, insecure data handling
 
 ---
 
@@ -104,6 +104,9 @@ Each module contains a series of interactive rooms (virtual machines, challenges
 
 ### Forensic & Analysis
 `Wireshark`, `strings`, `exiftool`, `binwalk`, `steghide`, `volatility`, `Autopsy`, `YARA`
+
+### Defensive Security & SIEM
+`Splunk`, `ELK Stack`, `IBM QRadar`, `Microsoft Sentinel`, `Wazuh`, `Snort`, `Suricata`, `Nessus`, `OpenVAS`, `Qualys`, `iptables`, `nftables`, `pfSense`, `Windows Firewall`
 
 ---
 
@@ -160,28 +163,38 @@ Windows OS internals from a security perspective.
 - **Rooms:** Windows Fundamentals 1–3, Active Directory Basics
 - **Key Outcomes:** Navigate Windows GUI/CLI, understand AD concepts, work with PowerShell
 
-### Module 06 — Python Basics
-Python for automating security tasks and writing custom tools.
-- **Rooms:** Python Basics, Python for Pentesters, PicoCTF Prep (Python)
-- **Key Outcomes:** Write scripts to parse logs, scan ports, connect sockets, interact with APIs
+### Module 06 — Cryptography
+Understand encryption, hashing, and cryptographic attacks.
+- **Rooms:** Cryptography Basics, Public Key Cryptography Basics, Hashing Basics, John the Ripper: The Basics
+- **Key Outcomes:** Differentiate symmetric vs asymmetric encryption, crack hashes, understand PKI
 
-### Module 07 — Privilege Escalation
-Escalate from low-privileged to root/administrator on both Linux and Windows.
-- **Rooms:** Linux PrivEsc, Windows PrivEsc Arena, Common Linux Privesc, Common Windows Privesc
-- **Key Outcomes:** Enumerate misconfigurations, exploit SUID/token/service vulnerabilities
+### Module 07 — Exploitation Basics
+Learn to exploit vulnerabilities using industry-standard tools.
+- **Rooms:** Moniker Link (CVE-2024-21413), Metasploit: Introduction, Metasploit: Exploitation, Metasploit: Meterpreter, Blue, Vulnversity
+- **Key Outcomes:** Use Metasploit for scanning, exploitation, pivoting, and post-exploitation
 
-### Module 08 — Metasploit Framework
-Industry-standard exploitation framework.
-- **Rooms:** Metasploit Introduction, Meterpreter, Post-Exploitation, Msfvenom
-- **Key Outcomes:** Use msfconsole for scanning, exploitation, pivoting, and post-exploitation
+### Module 08 — Web Hacking
+Understand web application security and common vulnerabilities.
+- **Rooms:** Web Application Basics, JavaScript Essentials, SQL Fundamentals, Burp Suite: The Basics
+- **Key Outcomes:** Identify web vulnerabilities, use Burp Suite for intercepting and testing
 
-### Module 09 — Burp Suite
-The web penetration tester's Swiss Army knife.
-- **Rooms:** Burp Suite Basics, Repeater, Intruder, Extensions, Scanner
-- **Key Outcomes:** Intercept and modify HTTP traffic, automate attacks, scan for vulnerabilities
+### Module 09 — Offensive Security Tooling
+Master essential offensive security tools.
+- **Rooms:** Hydra, Gobuster: The Basics, Shells Overview, SQLMap: The Basics
+- **Key Outcomes:** Brute-force credentials, enumerate directories, generate shells, automate SQLi
 
-### Modules 10–14
-Covering Active Directory attacks, cryptography, malware analysis, Wireshark, and the final capstone. See `SUMMARY.md` for full details.
+### Module 10 — Defensive Security
+Learn SOC operations, forensics, incident response, and log analysis.
+- **Rooms:** Defensive Security Intro, SOC Fundamentals, Digital Forensics Fundamentals, Incident Response Fundamentals, Logs Fundamentals
+- **Key Outcomes:** Understand blue team roles, analyze logs, respond to incidents
+
+### Module 11 — Security Solutions
+Explore fundamental defensive security solutions.
+- **Rooms:** Introduction to SIEM, Firewall Fundamentals, IDS Fundamentals, Vulnerability Scanner Overview
+- **Key Outcomes:** Understand SIEM architecture, configure firewalls, deploy IDS/IPS, manage vulnerabilities
+
+### Modules 12–14
+Covering Defensive Security Tooling, Cyber Career, and OWASP Top 10 (2025). See `SUMMARY.md` for full details.
 
 ---
 
