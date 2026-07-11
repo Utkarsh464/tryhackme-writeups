@@ -1,11 +1,11 @@
 # Cyber Security 101 — Complete Module & Room Index
 
-> **Legend:** ✅ = Completed | ⏳ = Pending  
+> **Legend:** ✅ = Completed
 > Times are estimated for a learner with no prior experience.
 
 ---
 
-## Module 01 — Introduction to Cyber Security ✅
+## Module 01 — Start Your Cyber Security Journey ✅
 
 | # | Room | Difficulty | Est. Time | Status |
 |---|------|-----------|-----------|--------|
@@ -25,205 +25,178 @@
 | 2.1 | Linux Fundamentals Part 1 | Easy | 60 min | ✅ |
 | 2.2 | Linux Fundamentals Part 2 | Easy | 60 min | ✅ |
 | 2.3 | Linux Fundamentals Part 3 | Easy | 60 min | ✅ |
-| 2.4 | Linux Challenges | Easy | 45 min | ✅ |
-| | **Module Total** | | **~3 hr 45 min** | **✅ Completed** |
+| | **Module Total** | | **~3 hr 0 min** | **✅ Completed** |
 
 **Key Concepts:** Filesystem hierarchy, permissions, process management, text processing, bash scripting, cron jobs, SSH, service management.
 
 ---
 
-## Module 03 — Web Hacking Fundamentals ✅
+## Module 03 — Windows and AD Fundamentals ✅
 
 | # | Room | Difficulty | Est. Time | Status |
 |---|------|-----------|-----------|--------|
-| 3.1 | Walking an Application | Very Easy | 30 min | ✅ |
-| 3.2 | Content Discovery | Easy | 45 min | ✅ |
-| 3.3 | Subdomain Enumeration | Easy | 30 min | ✅ |
-| 3.4 | Authentication Bypass | Easy | 45 min | ✅ |
-| 3.5 | IDOR (Insecure Direct Object Reference) | Easy | 30 min | ✅ |
-| 3.6 | File Inclusion | Easy | 45 min | ✅ |
-| 3.7 | SSRF (Server-Side Request Forgery) | Easy | 60 min | ✅ |
-| 3.8 | Cross-Site Scripting (XSS) | Easy | 60 min | ✅ |
-| 3.9 | SQL Injection | Easy | 60 min | ✅ |
-| 3.10 | OWASP Top 10 – 2021 | Easy | 90 min | ✅ |
-| 3.11 | OWASP Juice Shop (Optional) | Medium | 120 min | ✅ |
-| | **Module Total** | | **~10 hr 15 min** | **✅ Completed** |
-
-**Key Concepts:** OWASP Top 10, recon methodologies, web enumeration, input validation attacks, client-side vs server-side vulnerabilities.
-
----
-
-## Module 04 — Network Security ✅
-
-| # | Room | Difficulty | Est. Time | Status |
-|---|------|-----------|-----------|--------|
-| 4.1 | Intro to LAN | Very Easy | 30 min | ✅ |
-| 4.2 | HTTP in Detail | Very Easy | 30 min | ✅ |
-| 4.3 | DNS in Detail | Very Easy | 30 min | ✅ |
-| 4.4 | Nmap Live Host Discovery | Easy | 45 min | ✅ |
-| 4.5 | Nmap Basic Port Scans | Easy | 60 min | ✅ |
-| 4.6 | Nmap Advanced Port Scans | Easy | 60 min | ✅ |
-| 4.7 | Nmap Post Port Scans | Easy | 30 min | ✅ |
-| 4.8 | Protocols and Servers | Easy | 45 min | ✅ |
-| 4.9 | Network Services | Easy | 60 min | ✅ |
-| 4.10 | Network Security Protocols | Easy | 45 min | ✅ |
-| 4.11 | Attacking ICS/SCADA (Intro) | Medium | 60 min | ✅ |
-| | **Module Total** | | **~9 hr 15 min** | **✅ Completed** |
-
-**Key Concepts:** TCP/IP, OSI model, UDP, port scanning techniques, service enumeration, protocol analysis, TLS/SSL, firewall evasion.
-
----
-
-## Module 05 — Windows Fundamentals ✅
-
-| # | Room | Difficulty | Est. Time | Status |
-|---|------|-----------|-----------|--------|
-| 5.1 | Windows Fundamentals 1 | Easy | 45 min | ✅ |
-| 5.2 | Windows Fundamentals 2 | Easy | 45 min | ✅ |
-| 5.3 | Windows Fundamentals 3 | Easy | 45 min | ✅ |
-| 5.4 | Active Directory Basics | Easy | 60 min | ✅ |
+| 3.1 | Windows Fundamentals 1 | Easy | 45 min | ✅ |
+| 3.2 | Windows Fundamentals 2 | Easy | 45 min | ✅ |
+| 3.3 | Windows Fundamentals 3 | Easy | 45 min | ✅ |
+| 3.4 | Active Directory Basics | Easy | 60 min | ✅ |
 | | **Module Total** | | **~3 hr 15 min** | **✅ Completed** |
 
 **Key Concepts:** Windows NT architecture, NTFS permissions, UAC, Group Policy, Registry, Event Viewer, Task Scheduler, PowerShell, AD domain structure.
 
 ---
 
-## Module 06 — Python Basics ✅
+## Module 04 — Command Line ✅
 
 | # | Room | Difficulty | Est. Time | Status |
 |---|------|-----------|-----------|--------|
-| 6.1 | Python Basics | Very Easy | 45 min | ✅ |
-| 6.2 | Python for Pentesters | Easy | 90 min | ✅ |
-| 6.3 | PicoCTF Prep (Python) | Easy | 60 min | ✅ |
-| | **Module Total** | | **~3 hr 15 min** | **✅ Completed** |
+| 4.1 | Windows Command Line | Easy | 45 min | ✅ |
+| 4.2 | Windows PowerShell | Easy | 45 min | ✅ |
+| 4.3 | Linux Shells | Easy | 45 min | ✅ |
+| | **Module Total** | | **~2 hr 15 min** | **✅ Completed** |
 
-**Key Concepts:** Variables, conditionals, loops, functions, file I/O, socket programming, requests library, subprocess, argument parsing, simple exploits.
+**Key Concepts:** CMD commands, PowerShell scripting, bash, shell types, piping, redirection, job control.
 
 ---
 
-## Module 07 — Privilege Escalation ✅
+## Module 05 — Networking ✅
 
 | # | Room | Difficulty | Est. Time | Status |
 |---|------|-----------|-----------|--------|
-| 7.1 | Common Linux Privesc | Easy | 60 min | ✅ |
-| 7.2 | Linux Privesc Arena | Medium | 90 min | ✅ |
-| 7.3 | Common Windows Privesc | Easy | 60 min | ✅ |
-| 7.4 | Windows Privesc Arena | Medium | 90 min | ✅ |
-| 7.5 | Breaching Active Directory (Pre-AD) | Medium | 120 min | ✅ |
-| | **Module Total** | | **~7 hr 0 min** | **✅ Completed** |
+| 5.1 | Networking Concepts | Very Easy | 30 min | ✅ |
+| 5.2 | Networking Essentials | Very Easy | 30 min | ✅ |
+| 5.3 | Networking Core Protocols | Easy | 45 min | ✅ |
+| 5.4 | Networking Secure Protocols | Easy | 45 min | ✅ |
+| 5.5 | Wireshark: The Basics | Easy | 45 min | ✅ |
+| 5.6 | Tcpdump: The Basics | Easy | 30 min | ✅ |
+| 5.7 | Nmap: The Basics | Easy | 45 min | ✅ |
+| | **Module Total** | | **~4 hr 30 min** | **✅ Completed** |
 
-**Key Concepts:** Kernel exploits, SUID/SGID, cron jobs, PATH hijacking, capability misconfigurations, token impersonation, service misconfigurations, UAC bypass, AlwaysInstallElevated, DLL hijacking, unquoted service paths.
+**Key Concepts:** TCP/IP, OSI model, UDP, HTTP, DNS, TLS/SSL, packet analysis, port scanning.
 
 ---
 
-## Module 08 — Metasploit Framework ✅
+## Module 06 — Cryptography ✅
 
 | # | Room | Difficulty | Est. Time | Status |
 |---|------|-----------|-----------|--------|
-| 8.1 | Metasploit Introduction | Easy | 45 min | ✅ |
-| 8.2 | Metasploit Exploitation | Easy | 60 min | ✅ |
-| 8.3 | Meterpreter | Easy | 60 min | ✅ |
-| 8.4 | Post-Exploitation Basics | Easy | 45 min | ✅ |
-| 8.5 | Msfvenom & Custom Payloads | Easy | 45 min | ✅ |
+| 6.1 | Cryptography Basics | Easy | 45 min | ✅ |
+| 6.2 | Public Key Cryptography Basics | Easy | 45 min | ✅ |
+| 6.3 | Hashing Basics | Easy | 30 min | ✅ |
+| 6.4 | John the Ripper: The Basics | Easy | 45 min | ✅ |
+| | **Module Total** | | **~2 hr 45 min** | **✅ Completed** |
+
+**Key Concepts:** Symmetric vs asymmetric encryption, RSA, AES, hashing algorithms, PKI, password cracking.
+
+---
+
+## Module 07 — Exploitation Basics ✅
+
+| # | Room | Difficulty | Est. Time | Status |
+|---|------|-----------|-----------|--------|
+| 7.1 | Moniker Link (CVE-2024-21413) | Easy | 45 min | ✅ |
+| 7.2 | Metasploit: Introduction | Easy | 45 min | ✅ |
+| 7.3 | Metasploit: Exploitation | Easy | 60 min | ✅ |
+| 7.4 | Metasploit: Meterpreter | Easy | 60 min | ✅ |
+| 7.5 | Blue | Easy | 45 min | ✅ |
 | | **Module Total** | | **~4 hr 15 min** | **✅ Completed** |
 
-**Key Concepts:** MSF architecture, module types (exploit, auxiliary, post, payload), staging vs stageless, meterpreter commands, pivoting, database backend, resource scripts.
+**Key Concepts:** CVE exploitation, Metasploit framework, module types, staging, meterpreter commands, post-exploitation.
 
 ---
 
-## Module 09 — Burp Suite ✅
+## Module 08 — Web Hacking ✅
 
 | # | Room | Difficulty | Est. Time | Status |
 |---|------|-----------|-----------|--------|
-| 9.1 | Burp Suite Basics | Easy | 45 min | ✅ |
-| 9.2 | Burp Suite Repeater | Easy | 30 min | ✅ |
-| 9.3 | Burp Suite Intruder | Easy | 45 min | ✅ |
-| 9.4 | Burp Suite Extensions | Easy | 30 min | ✅ |
-| 9.5 | Burp Suite Scanner | Medium | 45 min | ✅ |
-| | **Module Total** | | **~3 hr 15 min** | **✅ Completed** |
+| 8.1 | Web Application Basics | Very Easy | 30 min | ✅ |
+| 8.2 | JavaScript Essentials | Easy | 45 min | ✅ |
+| 8.3 | SQL Fundamentals | Easy | 45 min | ✅ |
+| 8.4 | Burp Suite: The Basics | Easy | 45 min | ✅ |
+| 8.5 | OWASP Top 10 - 2021 | Easy | 90 min | ✅ |
+| | **Module Total** | | **~4 hr 15 min** | **✅ Completed** |
 
-**Key Concepts:** Proxy interception, request modification, intruder attack types (sniper, battering ram, pitchfork, cluster bomb), scanner automation, BApp store, Turbo Intruder, Autorize, Logger++.
+**Key Concepts:** Web architecture, JavaScript, SQL, Burp Suite proxy, OWASP Top 10, web vulnerabilities.
 
 ---
 
-## Module 10 — Active Directory ⏳ PENDING
+## Module 09 — Offensive Security Tooling ✅
 
 | # | Room | Difficulty | Est. Time | Status |
 |---|------|-----------|-----------|--------|
-| 10.1 | Active Directory Basics (Refresher) | Easy | 45 min | ⏳ |
-| 10.2 | Breaching Active Directory | Medium | 90 min | ⏳ |
-| 10.3 | Enumerating Active Directory | Medium | 90 min | ⏳ |
-| 10.4 | Lateral Movement in AD | Medium | 120 min | ⏳ |
-| 10.5 | Kerberos Attacks (AS-REP Roasting, Kerberoasting) | Medium | 120 min | ⏳ |
-| 10.6 | ACL Abuse & DCSync | Hard | 120 min | ⏳ |
-| 10.7 | AD Certificate Services (ESC1–ESC8) | Hard | 150 min | ⏳ |
-| 10.8 | Forrest — Full AD Attack Lab | Hard | 180 min | ⏳ |
-| | **Module Total (est.)** | | **~14 hr 15 min** | **⏳ Pending** |
+| 9.1 | Hydra | Easy | 45 min | ✅ |
+| 9.2 | Gobuster: The Basics | Easy | 45 min | ✅ |
+| 9.3 | Shells Overview | Easy | 30 min | ✅ |
+| 9.4 | SQLMap: The Basics | Easy | 45 min | ✅ |
+| | **Module Total** | | **~2 hr 45 min** | **✅ Completed** |
 
-**Key Concepts:** Kerberos, NetNTLM, pass-the-hash, pass-the-ticket, golden/silver tickets, DCSync, delegation, PKI abuse, BloodHound, certification mapping.
+**Key Concepts:** Brute-forcing, directory enumeration, reverse/bind shells, SQL injection automation.
 
 ---
 
-## Module 11 — Cryptography ⏳ PENDING
+## Module 10 — Defensive Security ✅
 
 | # | Room | Difficulty | Est. Time | Status |
 |---|------|-----------|-----------|--------|
-| 11.1 | Cryptography Basics | Easy | 45 min | ⏳ |
-| 11.2 | Hashing & HMACs | Easy | 45 min | ⏳ |
-| 11.3 | Symmetric Encryption (AES, DES) | Easy | 60 min | ⏳ |
-| 11.4 | Asymmetric Encryption (RSA, ECC) | Medium | 60 min | ⏳ |
-| 11.5 | PKI & TLS | Medium | 60 min | ⏳ |
-| 11.6 | Cryptanalysis Challenges | Medium | 90 min | ⏳ |
-| | **Module Total (est.)** | | **~6 hr 0 min** | **⏳ Pending** |
+| 10.1 | Defensive Security Intro | Very Easy | 20 min | ✅ |
+| 10.2 | SOC Fundamentals | Easy | 45 min | ✅ |
+| 10.3 | Digital Forensics Fundamentals | Easy | 45 min | ✅ |
+| 10.4 | Incident Response Fundamentals | Easy | 45 min | ✅ |
+| 10.5 | Logs Fundamentals | Easy | 45 min | ✅ |
+| | **Module Total** | | **~3 hr 20 min** | **✅ Completed** |
 
-**Key Concepts:** Encryption vs encoding vs hashing, block ciphers, modes of operation, RSA math, elliptic curves, certificate chains, SSL/TLS handshake, frequency analysis, padding oracle.
+**Key Concepts:** Blue team roles, SOC operations, forensics chain of custody, IR lifecycle, log analysis.
 
 ---
 
-## Module 12 — Malware Analysis ⏳ PENDING
+## Module 11 — Security Solutions ✅
 
 | # | Room | Difficulty | Est. Time | Status |
 |---|------|-----------|-----------|--------|
-| 12.1 | Malware Basics & Types | Easy | 30 min | ⏳ |
-| 12.2 | Static Analysis | Medium | 90 min | ⏳ |
-| 12.3 | Dynamic Analysis (Sandboxing) | Medium | 90 min | ⏳ |
-| 12.4 | Reverse Engineering with Ghidra | Hard | 120 min | ⏳ |
-| 12.5 | Memory Forensics (Volatility) | Hard | 120 min | ⏳ |
-| 12.6 | YARA Rules | Medium | 60 min | ⏳ |
-| 12.7 | Malware Lab — Full Analysis | Hard | 180 min | ⏳ |
-| | **Module Total (est.)** | | **~11 hr 30 min** | **⏳ Pending** |
+| 11.1 | Introduction to SIEM | Easy | 45 min | ✅ |
+| 11.2 | Firewall Fundamentals | Easy | 45 min | ✅ |
+| 11.3 | IDS Fundamentals | Easy | 45 min | ✅ |
+| 11.4 | Vulnerability Scanner Overview | Easy | 30 min | ✅ |
+| | **Module Total** | | **~2 hr 45 min** | **✅ Completed** |
 
-**Key Concepts:** PE/ELF structure, packers/obfuscation, API hooking, process injection, persistence mechanisms, memory dumps, volatility plugins, YARA rule writing.
+**Key Concepts:** SIEM architecture, firewall rules, IDS/IPS signatures, vulnerability management.
 
 ---
 
-## Module 13 — Wireshark & Traffic Analysis ⏳ PENDING
+## Module 12 — Defensive Security Tooling ✅
 
 | # | Room | Difficulty | Est. Time | Status |
 |---|------|-----------|-----------|--------|
-| 13.1 | Wireshark 101 | Easy | 45 min | ⏳ |
-| 13.2 | Packet Operations & Filters | Easy | 60 min | ⏳ |
-| 13.3 | Protocol Dissection (HTTP, DNS, SMB, TLS) | Medium | 90 min | ⏳ |
-| 13.4 | Network Forensics — PCAP Analysis | Medium | 90 min | ⏳ |
-| 13.5 | Traffic Analysis — C2 & Exfiltration Detection | Hard | 120 min | ⏳ |
-| 13.6 | Advanced Wireshark — TShark & CLI | Medium | 60 min | ⏳ |
-| | **Module Total (est.)** | | **~7 hr 45 min** | **⏳ Pending** |
+| 12.1 | CyberChef: The Basics | Easy | 60 min | ✅ |
+| 12.2 | CAPA: The Basics | Easy | 60 min | ✅ |
+| 12.3 | REMnux: Getting Started | Easy | 60 min | ✅ |
+| 12.4 | FlareVM: Arsenal of Tools | Easy | 60 min | ✅ |
+| | **Module Total** | | **~4 hr 0 min** | **✅ Completed** |
 
-**Key Concepts:** Capture filters vs display filters, coloring rules, tcp.stream, statistical analysis, TLS decryption, extracting files from PCAPs, detecting beaconing traffic.
+**Key Concepts:** Data transformation, malware capability analysis, malware analysis environments, Windows-based analysis.
 
 ---
 
-## Module 14 — Final Assessment (Capstone) ⏳ PENDING
+## Module 13 — Build Your Cyber Security Career ✅
 
 | # | Room | Difficulty | Est. Time | Status |
 |---|------|-----------|-----------|--------|
-| 14.1 | Capstone Challenge — Web & Network | Hard | 120 min | ⏳ |
-| 14.2 | Capstone Challenge — AD & PrivEsc | Hard | 120 min | ⏳ |
-| 14.3 | Capstone Challenge — Malware & Forensics | Hard | 120 min | ⏳ |
-| 14.4 | Path Review & Knowledge Check | — | 60 min | ⏳ |
-| | **Module Total (est.)** | | **~7 hr 0 min** | **⏳ Pending** |
+| 13.1 | Security Principles | Easy | 60 min | ✅ |
+| 13.2 | Careers in Cyber | Easy | 60 min | ✅ |
+| 13.3 | Training Impact on Teams | Easy | 60 min | ✅ |
+| | **Module Total** | | **~3 hr 0 min** | **✅ Completed** |
 
-**Key Concepts:** Full-scope penetration test simulation, report writing, cross-domain technique chaining, time management under pressure.
+**Key Concepts:** CIA triad, defense in depth, least privilege, risk management, security roles, training programs.
+
+---
+
+## Module 14 — Final Assessment: OWASP Top 10 2025 ✅
+
+| # | Room | Difficulty | Est. Time | Status |
+|---|------|-----------|-----------|--------|
+| 14.1 | OWASP Top 10 - 2025 | Medium | 120 min | ✅ |
+| | **Module Total** | | **~2 hr 0 min** | **✅ Completed** |
+
+**Key Concepts:** IAAA failures, application design flaws, insecure data handling, AI-driven attacks, API security, supply chain risks.
 
 ---
 
@@ -231,13 +204,12 @@
 
 | Category | Count |
 |----------|-------|
-| **Modules Completed** | 9 / 14 |
-| **Rooms Completed** | ~55 |
-| **Est. Total Time (Completed)** | ~45 hr 25 min |
-| **Est. Total Time (Pending)** | ~46 hr 30 min |
-| **Est. Total Time (Full Path)** | ~92 hr |
-| **Overall Progress** | **~49%** |
+| **Modules Completed** | 14 / 14 |
+| **Rooms Completed** | 54 |
+| **Est. Total Time** | ~45 hr |
+| **Overall Progress** | **✅ 100%** |
 
 ---
 
-> *Last updated: July 2026 — Room list may differ slightly from current TryHackMe curriculum. Always cross-reference with the official learning path.*
+> *Last updated: July 2026*
+
