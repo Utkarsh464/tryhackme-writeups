@@ -3,8 +3,8 @@
 > **A complete walkthrough & reference handbook for the TryHackMe Cyber Security 101 learning path.**  
 > Covers foundational to intermediate cybersecurity concepts through hands-on rooms, real-world scenarios, and practical tool mastery.
 
-[![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)](#)
-[![Modules Completed](https://img.shields.io/badge/Modules%20Completed-11%2F14-brightgreen)](#)
+[![Status](https://img.shields.io/badge/Status-Completed-brightgreen)](#)
+[![Modules Completed](https://img.shields.io/badge/Modules%20Completed-14%2F14-brightgreen)](#)
 [![Difficulty](https://img.shields.io/badge/Difficulty-Foundation%20to%20Intermediate-blue)](#)
 [![Platform](https://img.shields.io/badge/Platform-TryHackMe-red)](#)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)](#)
@@ -30,8 +30,7 @@ The **Cyber Security 101** path on TryHackMe is an entry-to-intermediate level c
 
 | Status | Detail |
 |--------|--------|
-| **Modules 1–11** | `COMPLETED` — Core foundations: Linux, Windows, Web, Networks, Cryptography, Exploitation, Web Hacking, Tooling, Defensive Security, Security Solutions |
-| **Modules 12–14** | `PENDING` — Defensive Security Tooling, Cyber Career, OWASP Top 10 (2025) |
+| **Modules 1–14** | `COMPLETED` — All 14 modules covering foundations, Linux, Windows, Web, Networks, Cryptography, Exploitation, Tooling, Defensive Security, Security Solutions, Malware Analysis Tooling, Cyber Career, and OWASP Top 10 (2025) |
 
 Each module contains a series of interactive rooms (virtual machines, challenges, guided exercises) that reinforce the topic through hands-on application. This handbook documents every room with step-by-step solutions, explanations, key takeaways, and optional deep-dives.
 
@@ -52,15 +51,15 @@ Each module contains a series of interactive rooms (virtual machines, challenges
 | 09 | Offensive Security Tooling | ✅ Completed |
 | 10 | Defensive Security | ✅ Completed |
 | 11 | Security Solutions | ✅ Completed |
-| 12 | Defensive Security Tooling | ⏳ Pending |
-| 13 | Build Your Cyber Security Career | ⏳ Pending |
-| 14 | OWASP Top 10 (2025) | ⏳ Pending |
+| 12 | Defensive Security Tooling | ✅ Completed |
+| 13 | Build Your Cyber Security Career | ✅ Completed |
+| 14 | OWASP Top 10 (2025) | ✅ Completed |
 
 ---
 
 ## Skills Covered
 
-### Completed (Modules 1–11)
+### Completed (All 14 Modules)
 
 - **Cyber Security Foundations** — CIA triad, risk management, security frameworks, threat actors
 - **Linux System Administration** — Command-line navigation, file permissions, process management, bash scripting, service configuration
@@ -73,9 +72,6 @@ Each module contains a series of interactive rooms (virtual machines, challenges
 - **Offensive Security Tooling** — Hydra, Gobuster, shells, SQLMap
 - **Defensive Security** — SOC fundamentals, digital forensics, incident response, log analysis
 - **Security Solutions** — SIEM, firewalls, IDS/IPS, vulnerability scanners
-
-### Pending (Modules 12–14)
-
 - **Defensive Security Tooling** — CyberChef, CAPA, REMnux, FlareVM
 - **Build Your Cyber Security Career** — Security principles, career paths, team impact
 - **OWASP Top 10 (2025)** — IAAA failures, application design flaws, insecure data handling
@@ -193,8 +189,20 @@ Explore fundamental defensive security solutions.
 - **Rooms:** Introduction to SIEM, Firewall Fundamentals, IDS Fundamentals, Vulnerability Scanner Overview
 - **Key Outcomes:** Understand SIEM architecture, configure firewalls, deploy IDS/IPS, manage vulnerabilities
 
-### Modules 12–14
-Covering Defensive Security Tooling, Cyber Career, and OWASP Top 10 (2025). See `SUMMARY.md` for full details.
+### Module 12 — Defensive Security Tooling
+Master essential tools for malware analysis and defensive investigations.
+- **Rooms:** CyberChef: The Basics, CAPA: The Basics, REMnux: Getting Started, FlareVM: Arsenal of Tools
+- **Key Outcomes:** Use CyberChef for data transformation, analyze malware capabilities with CAPA, navigate REMnux and FlareVM analysis environments
+
+### Module 13 — Build Your Cyber Security Career
+Focus on the professional and human aspects of a cybersecurity career.
+- **Rooms:** Security Principles, Careers in Cyber, Training Impact on Teams
+- **Key Outcomes:** Understand security principles (CIA, defense in depth), explore career paths, evaluate team training effectiveness
+
+### Module 14 — Final Assessment: OWASP Top 10 (2025)
+Capstone module assessing cumulative knowledge through hands-on exploitation of the OWASP Top 10 2025.
+- **Rooms:** OWASP Top 10 - 2025
+- **Key Outcomes:** Identify, exploit, and remediate all ten OWASP Top 10 2025 vulnerability categories
 
 ---
 
@@ -218,6 +226,7 @@ See `ROADMAP.md` for a detailed career-oriented breakdown.
 
 - [TryHackMe Cyber Security 101](https://tryhackme.com/path/outline/cybersecurity101)
 - [OWASP Top 10 – 2021](https://owasp.org/Top10/)
+- [OWASP Top 10 – 2025](https://owasp.org/Top10/)
 - [GTFOBins](https://gtfobins.github.io/) — Linux privilege escalation
 - [LOLBAS](https://lolbas-project.github.io/) — Windows living-off-the-land
 - [HackTricks](https://book.hacktricks.xyz/) — Penetration testing guides
