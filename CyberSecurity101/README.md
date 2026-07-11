@@ -4,7 +4,7 @@
 > Covers foundational to intermediate cybersecurity concepts through hands-on rooms, real-world scenarios, and practical tool mastery.
 
 [![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)](#)
-[![Modules Completed](https://img.shields.io/badge/Modules%20Completed-10%2F14-brightgreen)](#)
+[![Modules Completed](https://img.shields.io/badge/Modules%20Completed-11%2F14-brightgreen)](#)
 [![Difficulty](https://img.shields.io/badge/Difficulty-Foundation%20to%20Intermediate-blue)](#)
 [![Platform](https://img.shields.io/badge/Platform-TryHackMe-red)](#)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)](#)
@@ -148,20 +148,20 @@ Become comfortable with the Linux command line — the backbone of most security
 - **Rooms:** Linux Fundamentals Part 1–3, Linux Challenges
 - **Key Outcomes:** Navigate filesystem, manage processes, configure permissions, write bash scripts
 
-### Module 03 — Web Hacking Fundamentals
-Learn how web applications work and how they break.
-- **Rooms:** Walking an Application, Content Discovery, Subdomain Enumeration, OWASP Top 10 (several), Authentication Bypass, IDOR, File Inclusion, SSRF, XSS, SQL Injection
-- **Key Outcomes:** Exploit OWASP Top 10 vulnerabilities, automate recon with ffuf/gobuster
-
-### Module 04 — Network Security
-Understand network protocols, attacks, and defenses.
-- **Rooms:** Intro to LAN, HTTP in Detail, DNS in Detail, Nmap (LIVE), Network Services, Network Security Protocols, Attacking ICS/SCADA
-- **Key Outcomes:** Perform port scans, enumerate services, understand protocol-level attacks
-
-### Module 05 — Windows Fundamentals
-Windows OS internals from a security perspective.
+### Module 03 — Windows and AD Fundamentals
+Windows OS internals and Active Directory from a security perspective.
 - **Rooms:** Windows Fundamentals 1–3, Active Directory Basics
 - **Key Outcomes:** Navigate Windows GUI/CLI, understand AD concepts, work with PowerShell
+
+### Module 04 — Command Line
+Master the command-line interfaces used by security professionals.
+- **Rooms:** Windows Command Line, Windows PowerShell, Linux Shells
+- **Key Outcomes:** Navigate and administer systems via CMD, PowerShell, and bash
+
+### Module 05 — Networking
+Understand network protocols, attacks, and defenses.
+- **Rooms:** Networking Concepts, Networking Essentials, Networking Core Protocols, Networking Secure Protocols, Wireshark: The Basics, Tcpdump: The Basics, Nmap: The Basics
+- **Key Outcomes:** Perform port scans, analyze traffic, understand protocol-level attacks
 
 ### Module 06 — Cryptography
 Understand encryption, hashing, and cryptographic attacks.
@@ -170,12 +170,12 @@ Understand encryption, hashing, and cryptographic attacks.
 
 ### Module 07 — Exploitation Basics
 Learn to exploit vulnerabilities using industry-standard tools.
-- **Rooms:** Moniker Link (CVE-2024-21413), Metasploit: Introduction, Metasploit: Exploitation, Metasploit: Meterpreter, Blue, Vulnversity
+- **Rooms:** Moniker Link (CVE-2024-21413), Metasploit: Introduction, Metasploit: Exploitation, Metasploit: Meterpreter, Blue
 - **Key Outcomes:** Use Metasploit for scanning, exploitation, pivoting, and post-exploitation
 
 ### Module 08 — Web Hacking
 Understand web application security and common vulnerabilities.
-- **Rooms:** Web Application Basics, JavaScript Essentials, SQL Fundamentals, Burp Suite: The Basics
+- **Rooms:** Web Application Basics, JavaScript Essentials, SQL Fundamentals, Burp Suite: The Basics, OWASP Top 10 - 2021
 - **Key Outcomes:** Identify web vulnerabilities, use Burp Suite for intercepting and testing
 
 ### Module 09 — Offensive Security Tooling
