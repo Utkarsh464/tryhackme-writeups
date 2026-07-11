@@ -1,0 +1,16 @@
+# Logs Fundamentals - Tools
+
+## Windows Event Viewer
+Event Viewer is the built-in Windows GUI tool for browsing and managing event logs. It provides a hierarchical view of logs organized by type (Windows Logs: Application, Security, Setup, System, Forwarded Events; Applications and Services Logs: individual application and component logs). Users can filter logs by level, time range, Event ID, and keyword. The Create Custom View feature allows saving complex filters for repeated use. Event Viewer also supports attaching tasks to specific events (triggering scripts or actions when certain events occur). The Details pane shows the raw XML of each event, which is essential when detailed parameter values need to be extracted for analysis.
+
+## wevtutil
+wevtutil is a Windows command-line tool for managing event logs. It supports querying events with XPath 1.0 filters, exporting logs to various formats (EVTX, XML), configuring log settings (maximum size, retention policy, automatic backup), and clearing logs. The tool is essential for scripting log collection and for querying specific Event IDs across large log files. The `qe` (query events) command with XPath filtering enables precise extraction of security-relevant events. wevtutil is available on all modern Windows versions and can be used in batch scripts and PowerShell automation workflows.
+
+## journalctl
+journalctl is the command-line tool for querying the systemd journal on Linux systems that use systemd. It provides powerful filtering capabilities: by unit (service), by time range, by priority level, by specific fields, and by boot session. journalctl can output in various formats (short, verbose, json, export, cat). The `-xe` flag shows the most recent entries with explanations and is commonly used for troubleshooting. journalctl's structured data access and advanced filtering make it more powerful than traditional text-based log analysis for systemd-based systems.
+
+## grep, awk, and sed
+These Unix command-line tools are the workhorses of log analysis. grep searches for patterns using regular expressions, making it ideal for finding specific events, IP addresses, usernames, or error messages in log files. awk is a text-processing language that handles columnar data, enabling extraction and reformatting of specific fields from structured log lines. sed is a stream editor for transforming text, useful for filtering, substitution, and selective deletion of log lines. Combined with sort, uniq, head, and tail, these tools enable comprehensive log analysis without specialized software. They are available on every Linux system and on Windows through WSL, Cygwin, or Git Bash.
+
+## Logstash
+Logstash is an open-source data processing pipeline that ingests, transforms, and ships log data. Part of the ELK Stack, Logstash supports input plugins for reading from files, network sockets, syslog, beats, and databases. Filter plugins parse, transform, and enrich log data: grok filter for parsing unstructured text into structured fields, date filter for timestamp normalization, mutate filter for field manipulation, and geoip filter for IP geolocation. Output plugins send processed data to Elasticsearch, files, or other destinations. Logstash is the standard tool for log parsing and normalization in modern log management pipelines.
