@@ -60,4 +60,12 @@ OSINT investigation tracking a retired hacker's digital footprint across Komoot,
 
 ---
 
+## Related Repositories
+
+| Repo | Description | Status |
+|------|-------------|--------|
+| [Metasploit Labs](https://github.com/Utkarsh464/metasploit-labs) | Hands-on penetration testing labs using Metasploit, Nmap, and intentionally vulnerable machines (Metasploitable 2). Covers enumeration, exploitation, troubleshooting, and post-exploitation validation. | ✅ Active |
+
+---
+
 *Profile: [utkarsshh](https://tryhackme.com/p/utkarsshh)*
