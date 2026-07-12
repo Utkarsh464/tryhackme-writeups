@@ -11,10 +11,10 @@
 |---|------|-----------|-----------|--------|
 | 1.1 | Intro to Offensive Security | Very Easy | 20 min | ✅ |
 | 1.2 | Intro to Defensive Security | Very Easy | 20 min | ✅ |
-| 1.3 | Careers in Cyber | Very Easy | 30 min | ✅ |
+| 1.3 | Search Skills | Very Easy | 30 min | ✅ |
 | | **Module Total** | | **~1 hr 10 min** | **✅ Completed** |
 
-**Key Concepts:** Red vs Blue teams, CIA triad, risk management, security domains, career pathways.
+**Key Concepts:** Red vs Blue teams, CIA triad, risk management, security domains, search skills.
 
 ---
 

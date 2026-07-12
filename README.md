@@ -33,7 +33,7 @@ A comprehensive structured documentation of the TryHackMe Cyber Security 101 pat
 
 ### Modules Covered
 
-1. [Start Your Cyber Security Journey](./CyberSecurity101/Modules/Module-01-Start-Your-Cybersecurity-Journey/rooms.md) — Offensive vs defensive security, career pathways, search skills
+1. [Start Your Cyber Security Journey](./CyberSecurity101/Modules/Module-01-Start-Your-Cybersecurity-Journey/rooms.md) — Offensive vs defensive security, search skills
 2. [Linux Fundamentals](./CyberSecurity101/Modules/Module-02-Linux-Fundamentals/rooms.md) — Linux command line, file permissions, process management, bash scripting
 3. [Windows and AD Fundamentals](./CyberSecurity101/Modules/Module-03-Windows-and-AD-Fundamentals/rooms.md) — Windows OS, Active Directory, Group Policy, PowerShell
 4. [Command Line](./CyberSecurity101/Modules/Module-04-Command-Line/rooms.md) — Windows CMD, PowerShell, Linux shells, shell scripting
