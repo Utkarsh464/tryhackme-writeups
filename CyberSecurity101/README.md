@@ -1,238 +1,92 @@
 # TryHackMe — Cyber Security 101
 
-> **A complete walkthrough & reference handbook for the TryHackMe Cyber Security 101 learning path.**  
-> Covers foundational to intermediate cybersecurity concepts through hands-on rooms, real-world scenarios, and practical tool mastery.
+Structured documentation from my Cyber Security 101 learning path on TryHackMe — all 14 modules completed.
 
 [![Status](https://img.shields.io/badge/Status-Completed-brightgreen)](#)
-[![Modules Completed](https://img.shields.io/badge/Modules%20Completed-14%2F14-brightgreen)](#)
+[![Modules Completed](https://img.shields.io/badge/Modules-14%2F14-brightgreen)](#)
 [![Difficulty](https://img.shields.io/badge/Difficulty-Foundation%20to%20Intermediate-blue)](#)
 [![Platform](https://img.shields.io/badge/Platform-TryHackMe-red)](#)
-[![License](https://img.shields.io/badge/License-MIT-lightgrey)](#)
 
 ---
 
-## Table of Contents
-
-- [Learning Path Overview](#learning-path-overview)
-- [Quick Navigation](#quick-navigation)
-- [Skills Covered](#skills-covered)
-- [Tools Mastered](#tools-mastered)
-- [How to Use This Handbook](#how-to-use-this-handbook)
-- [Module Breakdown](#module-breakdown)
-- [Next Steps & Career Paths](#next-steps--career-paths)
-- [Resources & References](#resources--references)
+I went through this path after Pre-Security to go deeper into actual tooling and hands-on scenarios. Every room is documented with methodology, commands, and key takeaways for quick reference.
 
 ---
 
-## Learning Path Overview
+## Modules
 
-The **Cyber Security 101** path on TryHackMe is an entry-to-intermediate level curriculum designed to take a complete beginner and turn them into a capable junior security analyst or penetration tester. The path comprises **14 modules** spanning operating systems, networking, web security, exploitation, forensics, and defensive techniques.
-
-| Status | Detail |
-|--------|--------|
-| **Modules 1–14** | `COMPLETED` — All 14 modules covering foundations, Linux, Windows, Web, Networks, Cryptography, Exploitation, Tooling, Defensive Security, Security Solutions, Malware Analysis Tooling, Cyber Career, and OWASP Top 10 (2025) |
-
-Each module contains a series of interactive rooms (virtual machines, challenges, guided exercises) that reinforce the topic through hands-on application. This handbook documents every room with step-by-step solutions, explanations, key takeaways, and optional deep-dives.
-
----
-
-## Quick Navigation
-
-| Module | Topic | Status |
-|--------|-------|--------|
-| 01 | Start Your Cyber Security Journey | ✅ Completed |
-| 02 | Linux Fundamentals | ✅ Completed |
-| 03 | Windows and AD Fundamentals | ✅ Completed |
-| 04 | Command Line | ✅ Completed |
-| 05 | Networking | ✅ Completed |
-| 06 | Cryptography | ✅ Completed |
-| 07 | Exploitation Basics | ✅ Completed |
-| 08 | Web Hacking | ✅ Completed |
-| 09 | Offensive Security Tooling | ✅ Completed |
-| 10 | Defensive Security | ✅ Completed |
-| 11 | Security Solutions | ✅ Completed |
-| 12 | Defensive Security Tooling | ✅ Completed |
-| 13 | Build Your Cyber Security Career | ✅ Completed |
-| 14 | OWASP Top 10 (2025) | ✅ Completed |
+| # | Module | Status | Focus |
+|---|--------|--------|-------|
+| 01 | Start Your Cyber Security Journey | ✅ Completed | Security fundamentals, red vs blue team, career paths |
+| 02 | Linux Fundamentals | ✅ Completed | CLI navigation, permissions, bash scripting, service config |
+| 03 | Windows and AD Fundamentals | ✅ Completed | Windows internals, Active Directory, PowerShell |
+| 04 | Command Line | ✅ Completed | CMD, PowerShell, Linux shells |
+| 05 | Networking | ✅ Completed | TCP/IP, Wireshark, tcpdump, Nmap |
+| 06 | Cryptography | ✅ Completed | Symmetric/asymmetric encryption, hashing, PKI, John |
+| 07 | Exploitation Basics | ✅ Completed | Metasploit, Meterpreter, vulnerability exploitation |
+| 08 | Web Hacking | ✅ Completed | Web apps, Burp Suite, OWASP Top 10 |
+| 09 | Offensive Security Tooling | ✅ Completed | Hydra, Gobuster, SQLMap, shell generation |
+| 10 | Defensive Security | ✅ Completed | SOC operations, forensics, IR, log analysis |
+| 11 | Security Solutions | ✅ Completed | SIEM, firewalls, IDS/IPS, vulnerability scanners |
+| 12 | Defensive Security Tooling | ✅ Completed | CyberChef, CAPA, REMnux, FlareVM |
+| 13 | Build Your Cyber Security Career | ✅ Completed | Security principles, career paths, team impact |
+| 14 | OWASP Top 10 (2025) | ✅ Completed | IAAA failures, design flaws, insecure data handling |
 
 ---
 
-## Skills Covered
+## Tools Used Across the Path
 
-### Completed (All 14 Modules)
+**CLI & System:** `bash`, `grep`, `awk`, `sed`, `find`, `chmod`, `ps`, `systemctl`, `pwsh`, `cmd`
 
-- **Cyber Security Foundations** — CIA triad, risk management, security frameworks, threat actors
-- **Linux System Administration** — Command-line navigation, file permissions, process management, bash scripting, service configuration
-- **Windows & Active Directory** — User/group management, AD basics, Group Policy, registry, event viewer, PowerShell
-- **Command Line** — Windows CMD, PowerShell, Linux shells, shell scripting
-- **Networking** — TCP/IP, OSI model, protocols, Wireshark, tcpdump, Nmap
-- **Cryptography** — Symmetric & asymmetric encryption, hashing, PKI, John the Ripper
-- **Exploitation Basics** — Metasploit, Meterpreter, vulnerability exploitation
-- **Web Hacking** — Web apps, JavaScript, SQL, Burp Suite basics
-- **Offensive Security Tooling** — Hydra, Gobuster, shells, SQLMap
-- **Defensive Security** — SOC fundamentals, digital forensics, incident response, log analysis
-- **Security Solutions** — SIEM, firewalls, IDS/IPS, vulnerability scanners
-- **Defensive Security Tooling** — CyberChef, CAPA, REMnux, FlareVM
-- **Build Your Cyber Security Career** — Security principles, career paths, team impact
-- **OWASP Top 10 (2025)** — IAAA failures, application design flaws, insecure data handling
+**Network & Recon:** `nmap`, `netcat`, `tcpdump`, `dig`, `nslookup`, `whois`, `curl`, `smbclient`
+
+**Web Testing:** `Burp Suite`, `sqlmap`, `nikto`, `gobuster`, `hydra`, `john`
+
+**Exploitation:** `Metasploit` (`msfconsole`, `msfvenom`)
+
+**Forensic & Analysis:** `Wireshark`, `strings`, `exiftool`, `steghide`, `CyberChef`, `CAPA`
+
+**Defensive:** `Splunk`, `Snort`, `iptables`, `Nessus`, `Wazuh`
+
+**Scripting:** `Python 3`, `PowerShell`, `bash`
 
 ---
 
-## Tools Mastered
-
-### CLI & System Tools
-`bash`, `grep`, `awk`, `sed`, `find`, `chmod`, `chown`, `ps`, `netstat`, `ss`, `systemctl`, `journalctl`, `crontab`, `pwsh`, `cmd`, `regedit`, `mmc`
-
-### Network & Reconnaissance
-`nmap`, `netcat`, `socat`, `tcpdump`, `dig`, `nslookup`, `whois`, `curl`, `wget`, `smbclient`, `enum4linux`, `ldapsearch`
-
-### Web Testing & Exploitation
-`Burp Suite` (Community & Professional), `sqlmap`, `nikto`, `gobuster`, `ffuf`, `dirb`, `wpscan`, `hydra`, `john`, `hashcat`
-
-### Exploitation Frameworks
-`Metasploit` (`msfconsole`, `msfvenom`), `Impacket` (psexec, secretsdump, wmiexec), `BloodHound`, `CrackMapExec`
-
-### Privilege Escalation
-`LinPEAS`, `WinPEAS`, `pspy`, `GTFOBins`, `PowerUp`, `Sherlock`, `Seatbelt`, `SharpUp`
-
-### Development & Scripting
-`Python 3` (socket, requests, scapy, pwntools, paramiko), `PowerShell`, `bash`
-
-### Forensic & Analysis
-`Wireshark`, `strings`, `exiftool`, `binwalk`, `steghide`, `volatility`, `Autopsy`, `YARA`
-
-### Defensive Security & SIEM
-`Splunk`, `ELK Stack`, `IBM QRadar`, `Microsoft Sentinel`, `Wazuh`, `Snort`, `Suricata`, `Nessus`, `OpenVAS`, `Qualys`, `iptables`, `nftables`, `pfSense`, `Windows Firewall`
-
----
-
-## How to Use This Handbook
+## Repository Structure
 
 ```
-TryHackMe-CyberSecurity101/
-├── README.md           <-- You are here
-├── SUMMARY.md          <-- Full room-by-room index with completion status
-├── ROADMAP.md          <-- Learning progression & career guidance
+CyberSecurity101/
+├── README.md               You are here
+├── SUMMARY.md              Room-by-room index
+├── ROADMAP.md              Learning progression
 ├── Module-01-Intro/
-│   ├── README.md       <-- Module overview, key concepts
-│   └── rooms/          <-- Individual room writeups
+│   └── rooms/
 ├── Module-02-Linux/
 │   └── ...
 └── Module-14-Capstone/
     └── ...
 ```
 
-**For learners:** Start from Module 01 and work forward. Each room writeup contains the challenge description, methodology, flags/questions with answers, and explanations.
-
-**For revisers:** Use `SUMMARY.md` to jump directly to any room. Use `ROADMAP.md` to understand how each module fits your career goals.
-
-**For instructors:** Use these materials as a curriculum guide or lab companion. Each module documents expected time, difficulty, and learning objectives.
-
-> **Tip:** Flags and answers are marked with `>!spoiler tags!<` so you can attempt rooms first before peeking.
+Each module directory includes: room writeups with flags, methodology, commands, concept explanations, and screenshots.
 
 ---
 
-## Module Breakdown
+## Next Path
 
-### Module 01 — Introduction to Cyber Security
-First steps into the field. Covers security fundamentals, career paths, and the TryHackMe platform itself.
-- **Rooms:** Intro to Offensive Security, Intro to Defensive Security, Careers in Cyber
-- **Key Outcomes:** Understand red vs blue team roles, CIA triad, basic threat modeling
-
-### Module 02 — Linux Fundamentals
-Become comfortable with the Linux command line — the backbone of most security tools.
-- **Rooms:** Linux Fundamentals Part 1–3, Linux Challenges
-- **Key Outcomes:** Navigate filesystem, manage processes, configure permissions, write bash scripts
-
-### Module 03 — Windows and AD Fundamentals
-Windows OS internals and Active Directory from a security perspective.
-- **Rooms:** Windows Fundamentals 1–3, Active Directory Basics
-- **Key Outcomes:** Navigate Windows GUI/CLI, understand AD concepts, work with PowerShell
-
-### Module 04 — Command Line
-Master the command-line interfaces used by security professionals.
-- **Rooms:** Windows Command Line, Windows PowerShell, Linux Shells
-- **Key Outcomes:** Navigate and administer systems via CMD, PowerShell, and bash
-
-### Module 05 — Networking
-Understand network protocols, attacks, and defenses.
-- **Rooms:** Networking Concepts, Networking Essentials, Networking Core Protocols, Networking Secure Protocols, Wireshark: The Basics, Tcpdump: The Basics, Nmap: The Basics
-- **Key Outcomes:** Perform port scans, analyze traffic, understand protocol-level attacks
-
-### Module 06 — Cryptography
-Understand encryption, hashing, and cryptographic attacks.
-- **Rooms:** Cryptography Basics, Public Key Cryptography Basics, Hashing Basics, John the Ripper: The Basics
-- **Key Outcomes:** Differentiate symmetric vs asymmetric encryption, crack hashes, understand PKI
-
-### Module 07 — Exploitation Basics
-Learn to exploit vulnerabilities using industry-standard tools.
-- **Rooms:** Moniker Link (CVE-2024-21413), Metasploit: Introduction, Metasploit: Exploitation, Metasploit: Meterpreter, Blue
-- **Key Outcomes:** Use Metasploit for scanning, exploitation, pivoting, and post-exploitation
-
-### Module 08 — Web Hacking
-Understand web application security and common vulnerabilities.
-- **Rooms:** Web Application Basics, JavaScript Essentials, SQL Fundamentals, Burp Suite: The Basics, OWASP Top 10 - 2021
-- **Key Outcomes:** Identify web vulnerabilities, use Burp Suite for intercepting and testing
-
-### Module 09 — Offensive Security Tooling
-Master essential offensive security tools.
-- **Rooms:** Hydra, Gobuster: The Basics, Shells Overview, SQLMap: The Basics
-- **Key Outcomes:** Brute-force credentials, enumerate directories, generate shells, automate SQLi
-
-### Module 10 — Defensive Security
-Learn SOC operations, forensics, incident response, and log analysis.
-- **Rooms:** Defensive Security Intro, SOC Fundamentals, Digital Forensics Fundamentals, Incident Response Fundamentals, Logs Fundamentals
-- **Key Outcomes:** Understand blue team roles, analyze logs, respond to incidents
-
-### Module 11 — Security Solutions
-Explore fundamental defensive security solutions.
-- **Rooms:** Introduction to SIEM, Firewall Fundamentals, IDS Fundamentals, Vulnerability Scanner Overview
-- **Key Outcomes:** Understand SIEM architecture, configure firewalls, deploy IDS/IPS, manage vulnerabilities
-
-### Module 12 — Defensive Security Tooling
-Master essential tools for malware analysis and defensive investigations.
-- **Rooms:** CyberChef: The Basics, CAPA: The Basics, REMnux: Getting Started, FlareVM: Arsenal of Tools
-- **Key Outcomes:** Use CyberChef for data transformation, analyze malware capabilities with CAPA, navigate REMnux and FlareVM analysis environments
-
-### Module 13 — Build Your Cyber Security Career
-Focus on the professional and human aspects of a cybersecurity career.
-- **Rooms:** Security Principles, Careers in Cyber, Training Impact on Teams
-- **Key Outcomes:** Understand security principles (CIA, defense in depth), explore career paths, evaluate team training effectiveness
-
-### Module 14 — Final Assessment: OWASP Top 10 (2025)
-Capstone module assessing cumulative knowledge through hands-on exploitation of the OWASP Top 10 2025.
-- **Rooms:** OWASP Top 10 - 2025
-- **Key Outcomes:** Identify, exploit, and remediate all ten OWASP Top 10 2025 vulnerability categories
+| Path | Focus | Status |
+|------|-------|--------|
+| **Jr Penetration Tester** | Web exploitation, network pentesting | In progress (27%) |
 
 ---
 
-## Next Steps & Career Paths
-
-After completing Cyber Security 101 (Modules 1–14), recommended next paths on TryHackMe:
-
-| Path | Focus Area | Best For |
-|------|-----------|----------|
-| **Jr Penetration Tester** | Web & network exploitation, report writing | Aspiring pentesters |
-| **SOC Level 1** | Blue team, SIEM, incident response, log analysis | Aspiring SOC analysts |
-| **Offensive Pentesting** | Advanced exploitation, AD, buffer overflows | Experienced pentesters |
-| **Red Team** | C2 frameworks, evasion, TTPs | Advanced red teamers |
-| **Cyber Defense** | Forensics, malware analysis, threat hunting | Defenders & DFIR |
-
-See `ROADMAP.md` for a detailed career-oriented breakdown.
-
----
-
-## Resources & References
+## Resources
 
 - [TryHackMe Cyber Security 101](https://tryhackme.com/path/outline/cybersecurity101)
-- [OWASP Top 10 – 2021](https://owasp.org/Top10/)
-- [OWASP Top 10 – 2025](https://owasp.org/Top10/)
-- [GTFOBins](https://gtfobins.github.io/) — Linux privilege escalation
-- [LOLBAS](https://lolbas-project.github.io/) — Windows living-off-the-land
-- [HackTricks](https://book.hacktricks.xyz/) — Penetration testing guides
-- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) — Payload cheatsheets
+- [OWASP Top 10](https://owasp.org/Top10/)
+- [GTFOBins](https://gtfobins.github.io/)
+- [HackTricks](https://book.hacktricks.xyz/)
 
 ---
 
-> **Maintained by [@lightyagami]** — This is a living document. Contributions, corrections, and improvements are welcome.  
+> **Profile:** [utkarsshh](https://tryhackme.com/p/utkarsshh)
 > *Last updated: July 2026*

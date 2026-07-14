@@ -1,7 +1,6 @@
 # Jr Penetration Tester
 
-> **Structured documentation of my progress through the TryHackMe Jr Penetration Tester learning path.**
-> Covers penetration testing methodology, reconnaissance, and network scanning.
+My progress through the TryHackMe Jr Penetration Tester learning path — currently at 27% (4 of 15 modules).
 
 [![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)](#)
 [![Modules Completed](https://img.shields.io/badge/Progress-27%25-blue)](#)
@@ -10,51 +9,20 @@
 
 ---
 
-## Current Progress
+## Completed Modules
 
-| # | Module | Status |
-|---|--------|--------|
-| 01 | Start Your Cyber Security Journey | ✅ Completed |
-| 02 | Penetration Testing Foundations | ✅ Completed |
-| 03 | Network Reconnaissance | ✅ Completed |
-| 04 | Nmap | ✅ Completed |
-| 05 | Introduction to Web Hacking | 📋 Planned |
-| 06 | Burp Suite | 📋 Planned |
-| 07 | Web Enumeration | 📋 Planned |
-| 08 | Authentication | 📋 Planned |
-| 09 | OWASP Top 10 | 📋 Planned |
-| 10 | Metasploit | 📋 Planned |
-| 11 | Active Directory | 📋 Planned |
-| 12 | Privilege Escalation | 📋 Planned |
-| 13 | Pivoting | 📋 Planned |
-| 14 | Exploitation | 📋 Planned |
-| 15 | Remaining modules | 📋 Planned |
+| # | Module | What I Covered |
+|---|--------|----------------|
+| 01 | [Start Your Cyber Security Journey](./01-start-your-cyber-security-journey/README.md) | Red and blue team roles, ethical hacking foundations |
+| 02 | [Penetration Testing Foundations](./02-penetration-testing-foundations/README.md) | Pentest stages, ROE, CIA triad, STRIDE, IR methodology |
+| 03 | [Network Reconnaissance](./03-network-reconnaissance/README.md) | Passive recon (WHOIS, DNS, OSINT), active recon (ping, netcat, curl) |
+| 04 | [Nmap](./04-nmap/README.md) | Host discovery, port scans, service/OS detection, NSE scripting |
 
-**Overall Path Progress: 27%**
+**Next up:** Introduction to Web Hacking
 
-**Next Module:** Introduction to Web Hacking
+## Planned Modules
 
----
-
-## Skills Covered
-
-### Completed
-
-- **Cybersecurity Foundations** — Red vs blue team roles, ethical hacking, career pathways
-- **Pentesting Methodology** — Pentest stages, ROE, testing types, CIA triad, STRIDE, IR
-- **Passive Reconnaissance** — WHOIS, DNS enumeration, certificate transparency, OSINT
-- **Active Reconnaissance** — Ping sweeps, traceroute, netcat, curl
-- **Nmap** — Host discovery, port scans (SYN, Connect, UDP, advanced), service detection, OS fingerprinting, NSE scripting
-- **Protocol Security** — Telnet, HTTP, FTP, SMB, SMTP vulnerabilities
-
-### Planned
-
-- Web application hacking (OWASP Top 10, XSS, SQLi, SSRF)
-- Burp Suite mastery
-- Metasploit framework and exploitation
-- Active Directory attacks
-- Linux and Windows privilege escalation
-- Pivoting and advanced exploitation
+05 · Introduction to Web Hacking · 06 · Burp Suite · 07 · Web Enumeration · 08 · Authentication · 09 · OWASP Top 10 · 10 · Metasploit · 11 · Active Directory · 12 · Privilege Escalation · 13 · Pivoting · 14 · Exploitation · 15 · Remaining
 
 ---
 
@@ -62,26 +30,27 @@
 
 ```
 jr-penetration-tester/
-├── README.md                         You are here
-├── ROADMAP.md                        Learning progression and career plan
-├── SUMMARY.md                        Module and room index
+├── README.md                  You are here
+├── ROADMAP.md                 Learning progression
+├── SUMMARY.md                 Module and room index
 ├── 01-start-your-cyber-security-journey/
 ├── 02-penetration-testing-foundations/
 ├── 03-network-reconnaissance/
 └── 04-nmap/
 ```
 
-Each module directory contains:
+Each module contains: module README, notes, commands reference, concepts, references, and screenshots.
 
-```
-module-name/
-├── README.md          Module overview
-├── notes/notes.md     Detailed study notes
-├── commands.md        Commands and tools used
-├── concepts.md        Important concepts
-├── references.md      References and further reading
-└── screenshots/       Screenshots from labs
-```
+---
+
+## Skills Developed (Completed Modules)
+
+- Cybersecurity foundations and ethical hacking principles
+- Pentest methodology (planning, recon, exploitation, post-exploit, reporting)
+- Passive recon (WHOIS, DNS enumeration, certificate transparency, OSINT)
+- Active recon (ping sweeps, traceroute, netcat, curl)
+- Nmap (host discovery, SYN/Connect/UDP scans, service detection, OS fingerprinting, NSE)
+- Protocol security (Telnet, HTTP, FTP, SMB, SMTP)
 
 ---
 
@@ -95,4 +64,4 @@ module-name/
 ---
 
 > **Profile:** [utkarsshh](https://tryhackme.com/p/utkarsshh)
-> **Maintained by @lightyagami** — *Last updated: July 2026*
+> *Last updated: July 2026*

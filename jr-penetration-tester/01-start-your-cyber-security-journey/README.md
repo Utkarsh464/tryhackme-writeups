@@ -3,9 +3,7 @@
 **Status:** ✅ Completed  
 **Rooms:** Offensive Security Intro, Defensive Security Intro, Careers in Cyber
 
-## Overview
-
-Introductory module establishing the core domains of cybersecurity — red team vs blue team, ethical hacking foundations, and career pathways into the field.
+I started here to understand the landscape before committing to a specialization. Key distinction I took away: offensive security finds vulnerabilities proactively (ethical hacking, pentesting), defensive security protects and responds (SOC, IR, forensics).
 
 ## Rooms
 
@@ -17,9 +15,9 @@ Introductory module establishing the core domains of cybersecurity — red team 
 
 ## Key Takeaways
 
-- Offensive security proactively finds vulnerabilities before attackers do
-- Defensive security protects, monitors, and responds to threats
-- Cybersecurity offers diverse career paths across red, blue, and purple team roles
+- Offensive and defensive security require fundamentally different mindsets, but understanding both makes you better at either
+- Career paths in cybersecurity are diverse — red team, blue team, purple team, GRC, and more
+- Entry points exist for various backgrounds (IT, development, fresh graduates)
 
 ## Files
 

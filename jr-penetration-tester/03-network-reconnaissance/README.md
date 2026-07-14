@@ -3,9 +3,7 @@
 **Status:** ✅ Completed  
 **Rooms:** Passive Reconnaissance, Active Reconnaissance
 
-## Overview
-
-Techniques for gathering intelligence about target networks — from passive OSINT collection to active probing and service discovery.
+Techniques for gathering intelligence about target networks. I focused on understanding the trade-off between passive (OSINT, WHOIS, DNS, certificate transparency — undetectable) and active (ping sweeps, traceroute, netcat, curl — noisy but detailed) approaches.
 
 ## Rooms
 
@@ -16,10 +14,10 @@ Techniques for gathering intelligence about target networks — from passive OSI
 
 ## Key Takeaways
 
-- Passive recon gathers info without touching the target (logs, no direct traffic)
-- Active recon involves direct interaction and is detectable
-- DNS is a rich source of information (A, MX, NS, TXT records)
-- Certificate transparency logs reveal subdomains
+- Passive recon leaves no trace on the target — ideal for initial intelligence gathering
+- DNS is a goldmine: A, MX, NS, TXT records all reveal infrastructure details
+- Certificate transparency logs are a reliable source for discovering subdomains
+- Active recon is detectable but necessary for port/service-level enumeration
 
 ## Files
 

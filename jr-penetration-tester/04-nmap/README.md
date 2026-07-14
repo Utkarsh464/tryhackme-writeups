@@ -3,9 +3,7 @@
 **Status:** ✅ Completed  
 **Rooms:** Nmap Live Host Discovery, Nmap Basic Port Scans, Nmap Advanced Port Scans, Nmap Post Port Scans, Protocols and Servers, Net Sec Challenge
 
-## Overview
-
-Comprehensive coverage of Nmap for network scanning — from host discovery and port scanning through service detection, OS fingerprinting, NSE scripting, and protocol security analysis.
+The most in-depth module so far. I went from basic host discovery to advanced scan types (ACK, Window, idle/zombie scans) and NSE scripting. The Protocols and Servers room tied scanning back to real-world service vulnerabilities (Telnet cleartext, SMB EternalBlue, FTP anonymous access).
 
 ## Rooms
 
@@ -20,10 +18,10 @@ Comprehensive coverage of Nmap for network scanning — from host discovery and 
 
 ## Key Takeaways
 
-- Nmap is the industry standard for port scanning and service detection
-- Different scan types suit different scenarios (stealth, accuracy, firewall bypass)
-- NSE scripts automate enumeration and vulnerability detection
-- Many common protocols (Telnet, FTP, SMB) have well-known security weaknesses
+- Scan type choice matters: SYN is stealthier, Connect is reliable, UDP is slow but necessary
+- NSE scripts automate what would take hours of manual enumeration
+- Advanced scans (ACK, Window) help identify firewall rules
+- Protocol-level knowledge makes scan results actionable — finding port 21 open is trivial, understanding what anonymous FTP access allows is the real skill
 
 ## Files
 

@@ -3,9 +3,7 @@
 **Status:** ✅ Completed  
 **Rooms:** Pentesting Fundamentals, Principles of Security
 
-## Overview
-
-Core concepts of professional penetration testing — ethics, methodologies, rules of engagement, and the security principles that underpin all cybersecurity work.
+Core pentest methodology and security principles. This module clarified the structured approach behind professional engagements — planning, ROE, reconnaissance, exploitation, post-exploitation, and reporting. The STRIDE threat model and incident response lifecycle were the most practical takeaways.
 
 ## Rooms
 
@@ -17,9 +15,9 @@ Core concepts of professional penetration testing — ethics, methodologies, rul
 ## Key Takeaways
 
 - Every pentest follows a defined methodology with clear ROE
-- CIA triad (Confidentiality, Integrity, Availability) is the foundation of all security models
-- Threat modelling with STRIDE identifies attack categories
-- Incident response follows a structured lifecycle
+- CIA triad is the foundation of all security models
+- STRIDE provides a structured way to categorize threats
+- Incident response follows a defined lifecycle (preparation → detection → containment → eradication → recovery → lessons learned)
 
 ## Files
 
