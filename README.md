@@ -1,17 +1,24 @@
 # TryHackMe Write-ups
 
-| Path / Module | Status |
+Structured documentation, walkthroughs, and study notes from my TryHackMe learning journey. Covers network fundamentals, operating systems, web security, penetration testing methodology, and hands-on tool usage across multiple learning paths.
+
+## Current Progress
+
+| Path | Status |
 |------|--------|
 | Pre-Security | ✅ Completed |
 | Cyber Security 101 | ✅ Completed (14/14 modules) |
+| Jr Penetration Tester | 🟡 In Progress (4/15 modules — 27% complete) |
 
-## Pre-Security Path
+---
+
+## Pre-Security
 
 **SEC0 Professional Certification:** Unlocked
 
-A comprehensive structured documentation of the TryHackMe Pre-Security path — building foundational knowledge from computer hardware and networking through to web technologies, operating systems, programming basics, and real-world attacks and defenses.
+Foundational knowledge covering computer hardware, networking, web technologies, operating systems, programming basics, and real-world attacks and defenses.
 
-👉 **[PreSecurity/](./PreSecurity/README.md)** — Full structured documentation with modules, rooms, concepts, commands, tools, cheatsheets, diagrams, interview questions, and revision notes.
+👉 **[PreSecurity/](./PreSecurity/README.md)** — Full documentation with modules, rooms, concepts, commands, tools, cheatsheets, diagrams, interview questions, and revision notes.
 
 ### Modules Covered
 
@@ -27,9 +34,9 @@ A comprehensive structured documentation of the TryHackMe Pre-Security path — 
 
 ## Cyber Security 101
 
-**Structured documentation:** 👉 **[CyberSecurity101/](./CyberSecurity101/README.md)**
+A 14-module path covering operating systems, networking, web security, exploitation, forensics, and defensive techniques.
 
-A comprehensive structured documentation of the TryHackMe Cyber Security 101 path — covering operating systems, networking, web security, exploitation, forensics, and defensive techniques across all 14 modules (✅ completed).
+👉 **[CyberSecurity101/](./CyberSecurity101/README.md)**
 
 ### Modules Covered
 
@@ -50,6 +57,23 @@ A comprehensive structured documentation of the TryHackMe Cyber Security 101 pat
 
 ---
 
+## Jr Penetration Tester
+
+🟡 **In Progress** — 27% complete (4/15 modules). Next module: Introduction to Web Hacking.
+
+👉 **[jr-penetration-tester/](./jr-penetration-tester/README.md)**
+
+### Completed Modules
+
+| # | Module | Status |
+|---|--------|--------|
+| 01 | Start Your Cyber Security Journey | ✅ Completed |
+| 02 | Penetration Testing Foundations | ✅ Completed |
+| 03 | Network Reconnaissance | ✅ Completed |
+| 04 | Nmap | ✅ Completed |
+
+---
+
 ## Other Standalone Rooms
 
 | Room | Category | Status |
@@ -57,6 +81,46 @@ A comprehensive structured documentation of the TryHackMe Cyber Security 101 pat
 | [Cache Me Outside](./Other-Rooms/Cache-Me-Outside/writeup.md) | OSINT | ✅ Completed |
 
 OSINT investigation tracking a retired hacker's digital footprint across Komoot, GitHub, Threads, and email — covering public profile correlation, Git commit metadata leaks, active OSINT via auto-replies, image geolocation, and transit route reconstruction.
+
+---
+
+## Repository Structure
+
+```
+tryhackme-writeups/
+├── README.md                   <-- You are here
+├── PreSecurity/                <-- Pre-Security path (7 modules, completed)
+├── CyberSecurity101/           <-- Cyber Security 101 path (14 modules, completed)
+├── jr-penetration-tester/      <-- Jr Penetration Tester path (27% completed)
+└── Other-Rooms/                <-- Standalone room writeups
+```
+
+Each path directory follows a consistent structure:
+```
+Path/
+├── README.md           Path overview and navigation
+├── SUMMARY.md          Module and room index with completion status
+├── ROADMAP.md          Learning progression and career guidance
+└── module-name/
+    ├── README.md       Module overview
+    ├── notes/          Detailed study notes
+    ├── commands.md     Commands and tools used
+    ├── concepts.md     Important concepts
+    ├── references.md   References and further reading
+    └── screenshots/    Lab screenshots
+```
+
+## Skills & Tools
+
+### Completed Paths
+- **Foundations** — CIA triad, network fundamentals (OSI, TCP/IP, DNS, HTTP), computer hardware, OS administration (Linux & Windows), programming basics (Python, JavaScript, SQL)
+- **Cyber Security 101** — Linux/Windows/AD administration, cryptography, exploitation (Metasploit), web hacking (Burp Suite, OWASP Top 10), defensive security (SIEM, forensics, IR), malware analysis tooling
+
+### In Progress
+- **Jr Penetration Tester** — Pentesting methodology, network recon, Nmap scanning, protocol security
+
+### Tools Covered
+`nmap` `burpsuite` `wireshark` `metasploit` `gobuster` `hydra` `sqlmap` `john` `hashcat` `nikto` `tcpdump` `curl` `dig` `nslookup` `whois` `dnsrecon` `netcat` `socat` `smbclient` `enum4linux` `ldapsearch` `python` `powershell` `bash`
 
 ---
 
@@ -68,4 +132,17 @@ OSINT investigation tracking a retired hacker's digital footprint across Komoot,
 
 ---
 
-*Profile: [utkarsshh](https://tryhackme.com/p/utkarsshh)*
+## Contribution
+
+This is a personal study repository documenting my learning progress. If you spot an error or have a suggestion, feel free to open an issue or pull request.
+
+---
+
+## License
+
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+---
+
+> **Profile:** [utkarsshh](https://tryhackme.com/p/utkarsshh) | **GitHub:** [Utkarsh464](https://github.com/Utkarsh464)
+> **Maintained by @lightyagami** — *Last updated: July 2026*
