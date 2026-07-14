@@ -61,16 +61,16 @@ A 14-module path covering operating systems, networking, web security, exploitat
 
 🟡 **In Progress** — 27% complete (4/15 modules). Next module: Introduction to Web Hacking.
 
+Penetration testing methodology, network reconnaissance, and Nmap scanning — building toward full-spectrum offensive security skills.
+
 👉 **[jr-penetration-tester/](./jr-penetration-tester/README.md)**
 
-### Completed Modules
+### Modules Covered
 
-| # | Module | Status |
-|---|--------|--------|
-| 01 | Start Your Cyber Security Journey | ✅ Completed |
-| 02 | Penetration Testing Foundations | ✅ Completed |
-| 03 | Network Reconnaissance | ✅ Completed |
-| 04 | Nmap | ✅ Completed |
+1. [Start Your Cyber Security Journey](./jr-penetration-tester/01-start-your-cyber-security-journey/README.md) — Red vs blue team, ethical hacking foundations, career pathways ✅
+2. [Penetration Testing Foundations](./jr-penetration-tester/02-penetration-testing-foundations/README.md) — Pentest methodology, ROE, CIA triad, STRIDE, incident response ✅
+3. [Network Reconnaissance](./jr-penetration-tester/03-network-reconnaissance/README.md) — Passive and active recon, OSINT, DNS enumeration, WHOIS ✅
+4. [Nmap](./jr-penetration-tester/04-nmap/README.md) — Host discovery, port scanning, service detection, NSE, protocol security ✅
 
 ---
 
