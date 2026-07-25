@@ -1,34 +1,31 @@
-# Jr Penetration Tester — Module Summary
+# Jr Penetration Tester — Section Summary
 
-> **Legend:** ✅ = Completed | 📋 = Planned
+> **Legend:** ✅ = Completed | 🔄 = In Progress | 📋 = Planned
 
 ---
 
-## Completed Modules
+## Completed Sections
 
-### Module 01 — Start Your Cyber Security Journey ✅
-
-| Room | Status |
-|------|--------|
-| Offensive Security Intro | ✅ |
-| Defensive Security Intro | ✅ |
-| Careers in Cyber | ✅ |
-
-### Module 02 — Penetration Testing Foundations ✅
+### Section 01 — Pentesting Foundations ✅
 
 | Room | Status |
 |------|--------|
-| Pentesting Fundamentals | ✅ |
-| Principles of Security | ✅ |
+| Guided Pentest: Web | ✅ |
+| Guided Pentest: Infrastructure | ✅ |
+| Dive Into Pentesting | ✅ |
+| Cyber Kill Chain | ✅ |
+| Penetration Testing Frameworks | ✅ |
 
-### Module 03 — Network Reconnaissance ✅
+### Section 02 — Network Reconnaissance ✅
 
 | Room | Status |
 |------|--------|
 | Passive Reconnaissance | ✅ |
 | Active Reconnaissance | ✅ |
+| Protocols and Servers | ✅ |
+| Protocols and Servers 2 | ✅ |
 
-### Module 04 — Nmap ✅
+### Section 03 — Nmap ✅
 
 | Room | Status |
 |------|--------|
@@ -36,32 +33,61 @@
 | Nmap Basic Port Scans | ✅ |
 | Nmap Advanced Port Scans | ✅ |
 | Nmap Post Port Scans | ✅ |
-| Protocols and Servers | ✅ |
-| Net Sec Challenge | ✅ |
+
+### Section 04 — Web Application Security Fundamentals ✅
+
+| Room | Status |
+|------|--------|
+| Walking An Application | ✅ |
+| Content Discovery | ✅ |
+| Modern Web Stacks | ✅ |
+| Web Server Attacks - I | ✅ |
+| Web Server Attacks - II | ✅ |
+
+### Section 05 — Burp Suite ✅
+
+| Room | Status |
+|------|--------|
+| Burp Suite: The Basics | ✅ |
+| Burp Suite: Repeater | ✅ |
+| Burp Suite: Intruder | ✅ |
+| Burp Suite: Other Modules | ✅ |
+| Burp Suite: Extensions | ✅ |
+
+### Section 06 — Web Application Vulnerabilities I ✅
+
+| Room | Status |
+|------|--------|
+| SQL Injection Introduction | ✅ |
+| CSRF Introduction | ✅ |
+| XSS Introduction | ✅ |
+| Intro to SSRF | ✅ |
+| IDOR | ✅ |
+| Recruit (CTF) | ✅ |
 
 ---
 
-## Upcoming Modules
+## Upcoming Sections
 
-| # | Module | Status |
-|---|--------|--------|
-| 05 | Introduction to Web Hacking | 📋 |
-| 06 | Burp Suite | 📋 |
-| 07 | Web Enumeration | 📋 |
-| 08 | Authentication | 📋 |
-| 09 | OWASP Top 10 | 📋 |
-| 10 | Metasploit | 📋 |
-| 11 | Active Directory | 📋 |
+| # | Section | Status |
+|---|---------|--------|
+| 07 | Web Application Vulnerabilities II | 📋 |
+| 08 | Vulnerability Knowledge | 📋 |
+| 09 | OWASP Top 10 (2025) | 📋 |
+| 10 | Password Attacks | 📋 |
+| 11 | Metasploit and Exploitation | 📋 |
 | 12 | Privilege Escalation | 📋 |
-| 13 | Pivoting | 📋 |
-| 14 | Exploitation | 📋 |
-| 15+ | Remaining modules | 📋 |
+| 13 | Active Directory Security Testing | 📋 |
+| 14 | Specialized Domains | 📋 |
+| 15 | Python Scripting Basics | 📋 |
+| 16 | Pentesting Methodologies and Reporting | 📋 |
+| 17 | Jr Pentester Challenges | 📋 |
 
 ---
 
-**Completed Modules:** 4 / 15+  
-**Overall Progress:** ~27%  
-**Next Module:** Introduction to Web Hacking
+**Completed Sections:** 6 / 17  
+**Overall Progress:** ~45%  
+**Next Section:** Web Application Vulnerabilities II
 
 ---
 

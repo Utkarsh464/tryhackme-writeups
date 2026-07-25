@@ -1,36 +1,38 @@
 # Jr Penetration Tester — Learning Roadmap
 
 > **Progression from foundational knowledge through to job-ready penetration testing skills.**
-> Completed modules (1–4) establish the foundation. Upcoming modules build toward full-spectrum offensive security capability.
+> Completed sections (1–6) establish web security fundamentals. Remaining sections build toward full-spectrum offensive security capability.
 
 ---
 
-## Completed Modules (1–4)
+## Completed Sections (1–6)
 
-| Module | Skills Acquired |
-|--------|----------------|
-| Start Your Cyber Security Journey | Red vs blue team, ethical hacking foundations, career paths |
-| Penetration Testing Foundations | Pentest methodology, ROE, CIA triad, STRIDE, IR |
-| Network Reconnaissance | Passive and active recon, OSINT, DNS enumeration |
-| Nmap | Host discovery, port scanning, service detection, NSE, protocol security |
+| # | Section | Skills Acquired |
+|---|---------|----------------|
+| 01 | Pentesting Foundations | Guided pentests, Cyber Kill Chain, pentest frameworks |
+| 02 | Network Reconnaissance | Passive and active recon, OSINT, DNS enumeration, protocols |
+| 03 | Nmap | Host discovery, port scanning, service detection, NSE |
+| 04 | Web App Security Fundamentals | Walking apps, content discovery, web server attacks |
+| 05 | Burp Suite | Proxy, Repeater, Intruder, Decoder, Comparer, Extensions |
+| 06 | Web Vulns I | SQLi, CSRF, XSS, SSRF, IDOR, Recruit CTF |
 
 ---
 
-## Upcoming Modules
+## Upcoming Sections
 
-| # | Module | Est. Rooms | Focus |
-|---|--------|-----------|-------|
-| 05 | Introduction to Web Hacking | TBD | Web vulnerabilities, OWASP Top 10 |
-| 06 | Burp Suite | TBD | Intercepting proxy, Repeater, Intruder |
-| 07 | Web Enumeration | TBD | Directory busting, subdomain discovery |
-| 08 | Authentication | TBD | Auth bypass, session attacks, token manipulation |
-| 09 | OWASP Top 10 | TBD | Deep dive into OWASP Top 10 vulnerabilities |
-| 10 | Metasploit | TBD | Framework usage, Meterpreter, post-exploitation |
-| 11 | Active Directory | TBD | AD enumeration, kerberos attacks, lateral movement |
-| 12 | Privilege Escalation | TBD | Linux and Windows escalation techniques |
-| 13 | Pivoting | TBD | Network pivoting, tunnelling, lateral movement |
-| 14 | Exploitation | TBD | Advanced exploitation and chaining techniques |
-| 15+ | Remaining modules | TBD | Additional Jr Pentester path content |
+| # | Section | Est. Rooms | Focus |
+|---|---------|-----------|-------|
+| 07 | Web Vulns II | 6 | Session mgmt, broken auth, file inclusion, command injection, API pentesting |
+| 08 | Vulnerability Knowledge | 6 | CVE databases, scanning tools, CVE exploitation labs |
+| 09 | OWASP Top 10 (2025) | 3 | IAAA failures, design flaws, insecure data handling |
+| 10 | Password Attacks | 5 | Phishing, Hydra, wordlists, cracking, CTF |
+| 11 | Metasploit & Exploitation | 7 | Framework, scanning, post-exploitation, payloads, shells |
+| 12 | Privilege Escalation | 7 | Linux/Windows enumeration, automation, CTFs |
+| 13 | Active Directory | 9 | AD basics, auth, breaching, enumeration, lateral movement |
+| 14 | Specialized Domains | 6 | Wireless, mobile, cloud, LLM, blue team, DevSecOps |
+| 15 | Python Scripting | 4 | Core concepts, building scripts, pentesting scripts |
+| 16 | Methodology & Reporting | 4 | Threat modeling, scoping, report writing, re-testing |
+| 17 | Jr Pentester Challenges | 7 | Domino, Silent Monitor, Dead Drop, and more CTFs |
 
 ---
 
@@ -38,9 +40,9 @@
 
 | Role | Est. Timeline | Preparation |
 |------|---------------|-------------|
-| Junior Penetration Tester | After full path + labs | Complete all modules, practice on HTB/Proving Grounds |
-| Web Application Tester | After Web Hacking modules | Deepen Burp Suite and OWASP knowledge |
-| Network Security Assessor | After Recon/Nmap modules | Focus on scanning, protocol testing |
+| Junior Penetration Tester | After full path + labs | Complete all sections, practice on HTB/Proving Grounds |
+| Web Application Tester | After Web Hacking sections | Deepen Burp Suite and OWASP knowledge |
+| Network Security Assessor | After Recon/Nmap sections | Focus on scanning, protocol testing |
 | SOC Analyst (Tier 1) | Supplemental | Pair with blue team study |
 
 ---
@@ -48,13 +50,14 @@
 ## Study Plan
 
 ```
-Phase 1 (✅ Complete): Modules 1-4 — Foundations, Recon, Nmap
-Phase 2 (⬜ Next):     Web Hacking modules
-Phase 3 (⬜ Planned):  Burp Suite, Metasploit, AD
-Phase 4 (⬜ Planned):  Privilege Escalation, Pivoting, Exploitation
+Phase 1 (✅ Complete): Sections 01–03 — Pentesting Foundations, Recon, Nmap
+Phase 2 (✅ Complete): Sections 04–06 — Web Fundamentals, Burp, Web Vulns I
+Phase 3 (⬜ Next):     Sections 07–10 — Web Vulns II, Vuln Knowledge, OWASP, Password Attacks
+Phase 4 (⬜ Planned):  Sections 11–13 — Metasploit, Privesc, AD
+Phase 5 (⬜ Planned):  Sections 14–17 — Specialized, Python, Reporting, Challenges
 ```
 
 ---
 
 > **Profile:** [utkarsshh](https://tryhackme.com/p/utkarsshh)
-> **Maintained by @lightyagami** — *Last updated: July 2026*
+> *Last updated: July 2026*
