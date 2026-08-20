@@ -2,10 +2,10 @@
 
 Structured technical documentation from my TryHackMe learning progress. Each room I complete gets a writeup covering the methodology, commands, concepts, and tools I used — organized by learning path and module for reference and review.
 
-| Path | Status |
-|------|--------|
-| Pre-Security | Completed |
-| Cyber Security 101 | Completed (14/14 modules) |
+| Path                  | Status                           |
+| --------------------- | -------------------------------- |
+| Pre-Security          | Completed                        |
+| Cyber Security 101    | Completed (14/14 modules)        |
 | Jr Penetration Tester | In progress (27% — 4/15 modules) |
 
 ---
@@ -40,18 +40,18 @@ Expanded foundations with hands-on tooling — 14 modules covering operating sys
 
 [jr-penetration-tester/](./jr-penetration-tester/README.md)
 
-1. [Start Your Cyber Security Journey](./jr-penetration-tester/01-start-your-cyber-security-journey/README.md) — Red and blue team roles, ethical hacking foundations
-2. [Penetration Testing Foundations](./jr-penetration-tester/02-penetration-testing-foundations/README.md) — Pentest methodology, ROE, CIA triad, STRIDE, IR
-3. [Network Reconnaissance](./jr-penetration-tester/03-network-reconnaissance/README.md) — Passive and active recon, OSINT, DNS enumeration
-4. [Nmap](./jr-penetration-tester/04-nmap/README.md) — Host discovery, port scanning, service detection, NSE scripting
+1. [Pentesting Foundations](./jr-penetration-tester/01-pentesting-foundations/README.md) — Red and blue team roles, ethical hacking foundations
+2. [Network Reconnaissance](./jr-penetration-tester/02-network-reconnaissance/README.md) — Passive and active recon, OSINT, DNS enumeration
+3. [Nmap](./jr-penetration-tester/03-nmap/README.md) — Host discovery, port scanning, service detection, NSE scripting
+4. [Web App Fundamentals](./jr-penetration-tester/04-web-app-fundamentals/README.md) — OWASP Top 10, HTTP methods, directory brute-forcing, Burp Suite basics
 
 ---
 
 ## Other Standalone Rooms
 
-| Room | Category | Writeup |
-|------|----------|---------|
-| Cache Me Outside | OSINT | [writeup.md](./Other-Rooms/Cache-Me-Outside/writeup.md) |
+| Room             | Category | Writeup                                                 |
+| ---------------- | -------- | ------------------------------------------------------- |
+| Cache Me Outside | OSINT    | [writeup.md](./Other-Rooms/Cache-Me-Outside/writeup.md) |
 
 ---
 
@@ -95,3 +95,9 @@ MIT — see [LICENSE](./LICENSE).
 
 > TryHackMe profile: [utkarsshh](https://tryhackme.com/p/utkarsshh)
 > Last updated: July 2026
+
+---
+
+## Related repositories
+
+This repo holds TryHackMe room notes. For web-security lab writeups see [portswigger-academy](https://github.com/Utkarsh464/portswigger-academy), for machine exploitation see [labs](https://github.com/Utkarsh464/labs), and for condensed reference notes see [Notes-cyber-security](https://github.com/Utkarsh464/Notes-cyber-security).
