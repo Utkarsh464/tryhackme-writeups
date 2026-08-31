@@ -15,7 +15,7 @@ The target exposes two services:
 
 ### Web Enumeration
 
-Directory brute-forcing with bustit reveals the interesting paths:
+Directory brute-forcing with **[bustit](https://github.com/Utkarsh464/dir-brute)** (my own tool) reveals the interesting paths:
 
 ```
 bustit http://10.48.131.21/ /home/l/wordlist/subdirs/web-paths.txt -t 100 -v

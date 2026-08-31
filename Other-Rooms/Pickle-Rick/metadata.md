@@ -26,7 +26,7 @@ Pickle Rick is a Rick and Morty–themed CTF on TryHackMe. The goal is to help R
 ## Tools Used
 
 - Nmap
-- bustit (custom async directory brute-forcer)
+- bustit (my own async directory brute-forcer — [dir-brute](https://github.com/Utkarsh464/dir-brute))
 - curl
 - Web browser (login portal + command panel)
 

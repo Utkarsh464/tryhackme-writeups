@@ -5,7 +5,7 @@
 **Pickle Rick** is an easy web-exploitation CTF on TryHackMe. Rick has turned himself into a pickle and needs three secret ingredients for his pickle-reverse potion. The chain is:
 
 1. Nmap for service discovery
-2. Directory brute-forcing with bustit
+2. Directory brute-forcing with [bustit](https://github.com/Utkarsh464/dir-brute) (my own tool)
 3. Credentials recovered from an HTML comment and `robots.txt`
 4. Login to the portal (`login.php`) to reach a command panel (`portal.php`)
 5. First ingredient from `/home/rick/Sup3rs3cretPickl3Ingred.txt`
@@ -34,7 +34,7 @@ sudo nmap -T4 -sV --open 10.48.131.21
 
 ## Step 2: Web Directory Enumeration
 
-Running the user's **bustit** directory brute-forcer against the site:
+Running **[bustit](https://github.com/Utkarsh464/dir-brute)**, my own async directory brute-forcer, against the site:
 
 ```
 bustit http://10.48.131.21/ /home/l/wordlist/subdirs/web-paths.txt -t 100 -v
@@ -156,7 +156,7 @@ sudo less /root/3rd.txt
 Pickle Rick is a tidy five-stage web chain:
 
 1. **Nmap** → only HTTP (and a publickey-only SSH dead end)
-2. **bustit directory brute-force** → `login.php`, `portal.php`, `robots.txt`
+2. **[bustit](https://github.com/Utkarsh464/dir-brute) directory brute-force** → `login.php`, `portal.php`, `robots.txt`
 3. **HTML comment + `robots.txt`** → `R1ckRul3s` / `Wubbalubbadubdub`
 4. **Portal login → command panel** → a web shell as `www-data`
 5. **`sudo -l` → `(ALL) NOPASSWD: ALL`** → read the three ingredient files directly as root

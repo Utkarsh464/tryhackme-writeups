@@ -8,10 +8,10 @@
 
 ## bustit
 
-- **Purpose**: Custom async directory brute-forcer to enumerate web paths
+- **Purpose**: Async directory brute-forcer for web path enumeration
+- **Source**: [github.com/Utkarsh464/dir-brute](https://github.com/Utkarsh464/dir-brute) — my own tool, written in Python with `aiohttp`, installed globally with `uv`
 - **Usage**: Feed it a base URL and a wordlist; parallelize with `-t`, print every result with `-v`
 - **Command**: `bustit http://10.48.131.21/ /home/l/wordlist/subdirs/web-paths.txt -t 100 -v`
-- **Note**: This is the user's own tool (an adaptation of `dirb`/`gobuster`), built with `aiohttp` and installed globally with `uv`.
 
 ## curl
 
