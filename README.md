@@ -10,6 +10,25 @@ Structured technical documentation from my TryHackMe learning progress. Each roo
 
 ---
 
+## Table of Contents
+
+- [Learning Paths](#learning-paths)
+  - [Pre-Security](#pre-security)
+  - [Cyber Security 101](#cyber-security-101)
+  - [Jr Penetration Tester](#jr-penetration-tester)
+- [Standalone Rooms](#standalone-rooms)
+- [Skills and Tools](#skills-and-tools)
+- [Repository Structure](#repository-structure)
+- [Related Repositories](#related-repositories)
+- [License](#license)
+- [TryHackMe Profile](#tryhackme-profile)
+
+---
+
+## Learning Paths
+
+---
+
 ## Pre-Security
 
 SEC0 Professional Certification earned. Foundational knowledge across networking, operating systems, web technologies, and security operations.
@@ -47,7 +66,7 @@ Expanded foundations with hands-on tooling — 14 modules covering operating sys
 
 ---
 
-## Other Standalone Rooms
+## Standalone Rooms
 
 | Room             | Category     | Writeup                                                 |
 | ---------------- | ------------ | ------------------------------------------------------- |
@@ -80,9 +99,12 @@ Each path directory includes: room-level writeups (metadata, tasks, commands, co
 
 ---
 
-## Related
+## Related Repositories
+
+This repo holds TryHackMe room notes. For web-security lab writeups see [portswigger-academy](https://github.com/Utkarsh464/portswigger-academy), for machine exploitation see [labs](https://github.com/Utkarsh464/labs), and for condensed reference notes see [Notes-cyber-security](https://github.com/Utkarsh464/Notes-cyber-security).
 
 - [labs](https://github.com/Utkarsh464/labs) — Metasploitable 2 penetration testing labs
+- [portswigger-academy](https://github.com/Utkarsh464/portswigger-academy) — Web security lab writeups
 - [chat-server](https://github.com/Utkarsh464/chat-server) — Multi-threaded TCP chat server in Python
 - [Notes-cyber-security](https://github.com/Utkarsh464/Notes-cyber-security) — Structured study notes
 
@@ -94,11 +116,7 @@ MIT — see [LICENSE](./LICENSE).
 
 ---
 
+## TryHackMe Profile
+
 > TryHackMe profile: [utkarsshh](https://tryhackme.com/p/utkarsshh)
-> Last updated: July 2026
-
----
-
-## Related repositories
-
-This repo holds TryHackMe room notes. For web-security lab writeups see [portswigger-academy](https://github.com/Utkarsh464/portswigger-academy), for machine exploitation see [labs](https://github.com/Utkarsh464/labs), and for condensed reference notes see [Notes-cyber-security](https://github.com/Utkarsh464/Notes-cyber-security).
+> Last updated: August 2026
