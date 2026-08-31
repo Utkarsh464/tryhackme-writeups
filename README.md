@@ -72,6 +72,7 @@ Expanded foundations with hands-on tooling — 14 modules covering operating sys
 | ---------------- | ------------ | ------------------------------------------------------- |
 | Cache Me Outside | OSINT        | [writeup.md](./Other-Rooms/Cache-Me-Outside/writeup.md) |
 | Cowboy Hacker    | Exploitation | [writeup.md](./Other-Rooms/Cowboy-Hacker/writeup.md)    |
+| Pickle Rick      | Web Exploit  | [writeup.md](./Other-Rooms/Pickle-Rick/writeup.md)      |
 
 ---
 
