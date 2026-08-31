@@ -49,9 +49,10 @@ Expanded foundations with hands-on tooling — 14 modules covering operating sys
 
 ## Other Standalone Rooms
 
-| Room             | Category | Writeup                                                 |
-| ---------------- | -------- | ------------------------------------------------------- |
-| Cache Me Outside | OSINT    | [writeup.md](./Other-Rooms/Cache-Me-Outside/writeup.md) |
+| Room             | Category     | Writeup                                                 |
+| ---------------- | ------------ | ------------------------------------------------------- |
+| Cache Me Outside | OSINT        | [writeup.md](./Other-Rooms/Cache-Me-Outside/writeup.md) |
+| Cowboy Hacker    | Exploitation | [writeup.md](./Other-Rooms/Cowboy-Hacker/writeup.md)    |
 
 ---
 
