@@ -105,6 +105,12 @@ THM{B0UNTY_h4cK3r}
 
 **root.txt:** `THM{B0UNTY_h4cK3r}`
 
+## Evidence
+
+![Room completion and tar escalation](screenshots/room-completion-and-tar-escalation.png)
+
+_The TryHackMe room completion page (correct answers for the SSH password, user flag, and root flag) along with the AttackBox terminal showing the `sudo -l` result (`(root) /bin/tar`), the GTFOBins `tar --checkpoint-action=exec=/bin/sh` escalation, and `cat /root/root.txt` from the resulting root shell._
+
 ## Conclusion
 
 This room is a clean four-stage chain:
