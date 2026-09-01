@@ -2,11 +2,11 @@
 
 Structured technical documentation from my TryHackMe learning progress. Each room I complete gets a writeup covering the methodology, commands, concepts, and tools I used — organized by learning path and module for reference and review.
 
-| Path                  | Status                           |
-| --------------------- | -------------------------------- |
-| Pre-Security          | Completed                        |
-| Cyber Security 101    | Completed (14/14 modules)        |
-| Jr Penetration Tester | In progress (27% — 4/15 modules) |
+| Path                  | Status                    |
+| --------------------- | ------------------------- |
+| Pre-Security          | Completed                 |
+| Cyber Security 101    | Completed (14/14 modules) |
+| Jr Penetration Tester | Doing                     |
 
 ---
 
@@ -55,7 +55,7 @@ Expanded foundations with hands-on tooling — 14 modules covering operating sys
 
 ## Jr Penetration Tester
 
-27% complete (4/15 modules). Next module: Introduction to Web Hacking.
+Currently doing this pathway — working through the modules with hands-on writeups for each room.
 
 [jr-penetration-tester/](./jr-penetration-tester/README.md)
 
@@ -68,11 +68,13 @@ Expanded foundations with hands-on tooling — 14 modules covering operating sys
 
 ## Standalone Rooms
 
-| Room             | Category     | Writeup                                                 |
-| ---------------- | ------------ | ------------------------------------------------------- |
-| Cache Me Outside | OSINT        | [writeup.md](./Other-Rooms/Cache-Me-Outside/writeup.md) |
-| Cowboy Hacker    | Exploitation | [writeup.md](./Other-Rooms/Cowboy-Hacker/writeup.md)    |
-| Pickle Rick      | Web Exploit  | [writeup.md](./Other-Rooms/Pickle-Rick/writeup.md)      |
+Rooms I've completed outside the main learning paths — each one gets a full writeup (methodology, commands, tools, screenshots) just like the path rooms. These are a great place to see me applying the techniques from the paths to real CTF-style targets.
+
+| Room             | Category     | Writeup                                                 | What it covers                                                     |
+| ---------------- | ------------ | ------------------------------------------------------- | ------------------------------------------------------------------ |
+| Cache Me Outside | OSINT        | [writeup.md](./Other-Rooms/Cache-Me-Outside/writeup.md) | OSINT, metadata analysis, social media research                    |
+| Cowboy Hacker    | Exploitation | [writeup.md](./Other-Rooms/Cowboy-Hacker/writeup.md)    | Anonymous FTP, leaked wordlists, SSH brute-force, GTFOBins privesc |
+| Pickle Rick      | Web Exploit  | [writeup.md](./Other-Rooms/Pickle-Rick/writeup.md)      | HTML comment creds, robots.txt, web command panel, NOPASSWD sudo   |
 
 ---
 
@@ -92,8 +94,8 @@ Expanded foundations with hands-on tooling — 14 modules covering operating sys
 tryhackme-writeups/
 ├── PreSecurity/            7 modules, 31 rooms, completed
 ├── CyberSecurity101/       14 modules, 54 rooms, completed
-├── jr-penetration-tester/  4/15 modules, in progress
-└── Other-Rooms/            Standalone writeups
+├── jr-penetration-tester/  in progress (doing)
+└── Other-Rooms/            Standalone writeups (with screenshots)
 ```
 
 Each path directory includes: room-level writeups (metadata, tasks, commands, concepts, tools), concept references, command guides, tool documentation, cheat sheets, diagrams, interview questions, and revision summaries.
@@ -120,4 +122,4 @@ MIT — see [LICENSE](./LICENSE).
 ## TryHackMe Profile
 
 > TryHackMe profile: [utkarsshh](https://tryhackme.com/p/utkarsshh)
-> Last updated: August 2026
+> Last updated: Sep 2026
